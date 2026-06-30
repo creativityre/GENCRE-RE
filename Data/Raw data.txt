@@ -1,0 +1,1200 @@
+General features
+Users will be able to sign in with their Apple ID on the Zoom desktop client and mobile apps.
+Dark mode support.
+Users can select dark mode as their theme in their client Settings. 
+Enhancement to contacts count
+Creating breakout session to include a host option
+Optional include co-host when automatically assigning breakout rooms 
+The Contacts tab is no longer capped at 1,000 contacts for each contact group. Contacts will continuously load as many contacts as you have in the contact group as you scroll down. This feature must be enabled by Zoom.
+Additional MSI/PLIST/GPO/MDM options
+ Allow Apple login - EnableAppleLogin 
+Enabled by default, this option controls access to the Apple authentication method. This login method can also be restricted at the account level by an account admin.
+ Control visibility of Video Message option - ShowVideoMessageButton 
+Enabled by default, this option controls access to the Video Message option in Zoom chat.
+ Control visibility of profile photos in Zoom Chat - ShowProfilePhotosInChat 
+Disabled by default, this option controls if user profile pictures are shown in Zoom Chat.
+ DisableWebinarReaction - Disable use of Webinar Reactions 
+Disabled by default, this option controls access to Webinar Reactions.
+Meeting/webinar features
+Avatars 
+When enabled during a meeting, Zoom’s technology uses your device’s camera to detect where a face is on the screen and apply the selected avatar effect. This feature requires 5.10.0 or higher.
+Live streaming to Twitch 
+Hosts can live stream their meeting or webinar to Twitch directly, rather than manually configuring the stream as a custom live-streaming service.
+Show invitee list in Participants panel 
+Displaying the invitee list in the Participants panel allows hosts, co-hosts, and alternative hosts to view a Not Joined section in the Participants panel of the meeting. This section lists the people who were invited to the meeting but have not yet joined, as well as their calendar response. This feature requires hosts and users to have the Calendar and Contacts Integration (Google Calendar or Outlook Calendar) configured in their Profile. This feature requires 5.9.6 or higher. This feature was initially available to limited account types, and now is available to all account types.
+ Meeting features
+ Rename participants in Waiting Room 
+Optional include co-host when automatically assigning breakout rooms
+When creating breakout rooms and choosing to assign participants automatically, any co-hosts will now not automatically be included in the assignments, but the host can choose to include them.
+Hosts and co-hosts can rename meeting participants in the waiting room before they enter the meeting. After locating a participant's name in the waiting room section of the participant list, an option appears in the ... menu to rename that participant. The participant is notified of this change.
+ Save Breakout Room assignments for future use
+When breakout rooms are created, the host can save that current configuration and participant assignments, which can be used in future sessions. This is only available for recurring meetings and limited to 10 saved configurations per user.
+ Share audio with content to all breakout rooms 
+Hosts are able to share computer audio, along with shared content, to all breakout rooms. This can be enabled when beginning the share, or while sharing is in progress. This also supports the Share Video option as well for Breakout Rooms.
+ Optional include co-host when automatically assigning breakout rooms
+When creating breakout rooms and choosing to assign participants automatically, any co-hosts will now not automatically be included in the assignments, but the host can choose to include them.
+Webinar features
+Webinar Backstage 
+The webinar host and other panelists can move between the backstage area, which is not visible or heard by attendees, and the live webinar area, which is visible to and heard by attendees. Panelists backstage can still hear and view the live webinar to keep an eye on the presentation and know when to rejoin. This feature requires version 5.10.0 or higher for panelists, and the host must have a Zoom Events license. This feature will not be immediately available, as it is dependent on a backend server update currently scheduled for April 9, 2022.
+Webinar Session Branding 
+Hosts can customize the appearance of the in-webinar experience by adding a wallpaper behind the video tiles, setting a common virtual background for all panelists, and providing name tags for each panelist. This requires version 5.10.0 or higher to use and/or view, but does not require this version to join the webinar.
+Reactions for Webinar 
+Webinar Attendees can use reactions, similar to reactions in meetings. The stream of submitted reactions are displayed in the bottom-right corner of the main webinar window, visible to the host, panelists, and attendees. This can be controlled within the webinar, as well as at the Account-, Group-, and User-level settings. This requires version 5.9.6 or higher to be able to send and see reactions.
+Hide profile pictures for unmuted or promoted attendees
+Admins and webinar hosts can restrict the use of profile pictures for panelists and attendees when they are unmuted or promoted to a panelist. This feature requires version 5.3.2 or higher.
+ Chat features
+ Cloud storage support for SharePoint 
+Users can set the default file storage option for newly created channels to SharePoint, the third-party cloud storage service. This also allows users to create new Office 365 documents right from cloud storage backed chat channels. Screenshots, recorded Audio Messages, and Zoom Whiteboard files will still be stored on Zoom Cloud. This feature must be enabled by Zoom.
+ Cloud storage support for Box 
+Users can set the default file storage option for newly created channels to Box, the third-party cloud storage service. This also allows users to create new productivity suite documents right from cloud storage backed chat channels. The Box integration can use Office 365, Google Workspace Docs, or Box Notes. Screenshots, Recorded Audio Messages, and Zoom Whiteboard files will still be stored on Zoom Cloud. This feature must be enabled by Zoom.
+ Folders for grouping chats and channels 
+Users can group and self-organize their channels and chats in a way that declutters their sidebar to find their conversations quickly. Users can create up to 200 folders, with each folder having up to 50 chats or channels within. Items within a folder can be dragged and dropped into any order. This feature will not be immediately available, as it is dependent on a backend server update currently scheduled for March 28, 2022.
+ Hover to preview unread messages 
+When hovering on the unread message notification on a collapsed sidebar section or folder, a preview window will appear to show what hidden chat or channel has an unread message. Clicking on the preview will open that chat or channel.
+ Create multiple group chats with different topics but same user group 
+When starting a new group chat with the same group of users, you can choose to start a new group chat with a new topic, instead of jumping to the existing group chat. This allows for the same group of users to create different group chats for different topics.
+ Customizable left sidebar 
+Users can select the elements they want to view at the top of their left sidebar (missed calls, contact requests, bookmarks, files), as well as customize the behavior and look of the left sidebar.
+ Enhancements to the channel information panel 
+Located on the right side of Zoom Chat channels, channel information has improved visibility and provides users with streamlined channel information, members, files, bookmark information, pin history, and channel-related notifications and options.
+ Deep linking for chat and channels
+With support for deep linking, a user can create shareable links to public channels or specific messages in the channel, and then share links within or outside of Zoom to open directly in Zoom Chat. Only users with existing access and those who belong to the same account with the channel admin, will be able to join and view referenced channels. 
+ Video messaging 
+Users can send short video messages to others. Asynchronous video allows users the time to consider their responses and then record as needed to provide thoughtfully crafted responses. 
+ Open chat in new window from notification
+Users can enable chat notifications to open the chat or channel in a new window when accessed through the system push notification directly.
+ Send chat message to contact from Profile card
+Users can easily multi-task and send multiple chat messages without leaving their screen by sending a quick chat message to someone from their profile card.
+ Find and join public chat channels from Search 
+Users can search for a public channel to join from the main Search field. Channels they already are members of are visually differentiated from public channels they are not a member of. They can then preview or join the channel directly from the search results.
+ Improved link previews for LinkedIn 
+Link previews for LinkedIn URLs are more consistent.
+ Quick actions on hover for images and files 
+Actions to share, copy, download, open, and add to emoji are more readily available when hovering your mouse over a sent image or file in Zoom Chat.
+Phone features 
+
+ Forward voicemail 
+Users can forward individual voicemail messages to other users in the same account. Forwarded voicemails can be viewed in the desktop client or web portal. Forwarded voicemails can be marked private to prevent re-forwarding and downloading. This feature must be enabled by Zoom. 
+Contact Center features
+View and monitor outbound calls 
+Supervisors can use the Engagement tab to view details on outbound calls that agents made from the supervisor’s assigned queues. Supervisors can also monitor agents’ outbound calls from these queues (listen, whisper, barge, and takeover).
+Select outbound caller ID number 
+Agents can select an outbound caller ID number belonging to an associated queue before they make an outbound call.
+Invite by phone during video calls 
+During video calls, agents can invite a participant to the calls by calling out a phone number. The participant can answer the phone to join the video call by phone.
+Enhancement to Closed Engagements tab 
+The Close Engagements tab shows information on all closed engagements (voice and video). Previously, only voice engagements were supported.
+General UI enhancements 
+The UI of the Contact Center tab has been improved so that supervisors and agents can better view after resizing the Zoom window.
+Notification when voice call is taken over 
+When a supervisor or another agent takes over a voice call, the original agent on the call will see a banner message notifying them that another user is taking over the call.
+Sound notification enhancements for customers 
+Customers will hear a sound notification while in the Waiting Room for video engagements when an agent has accepted the engagement. They will also hear a notification when another participant joins the call.
+Resolved Issues
+ Minor bug fixes
+ Security enhancements
+ Resolved an issue regarding time zone issues for Samoa 
+ Resolved an issue regarding requiring re-authentication more frequently than set by account 
+ Resolved an issue regarding the Zoom Phone ringtone volume 
+ Resolved an issue regarding an alternative host joining a webinar 
+ Resolved an issue regarding live transcription not saving a VTT file with a local recording 
+ Resolved an issue for a subset of users regarding using virtual background in a 2nd simultaneous meeting 
+ Resolved an issue regarding local recordings not capturing speaker view 
+ Resolved an issue regarding co-host and alt-host rights in a webinar
+ Resolved an issue for a subset of users regarding outbound numbers showing differently on receiving end 
+ Resolved an issue regarding the displayed caller ID when receiving a warm transfer 
+ Resolved an issue regarding the gallery view appearing as a black screen 
+ Resolved an issue regarding accessibility and screen readers 
+ Resolved an issue regarding sharing to a Zoom Room 
+ Resolved an issue for a subset of users regarding muting a participant 
+ Resolved an issue for a subset of users regarding accessing images in certain folders
+Notes:
+ The Audio Intercom feature was pulled from release due to issues with deployment, and will be available in another upcoming release.
+ The Allow users to stop and resume automatic call recording feature was pulled from release and will available in another upcoming release.
+
+ Meeting/webinar features
+ Language Interpretation relay enhancement 
+Language interpreters can listen to either the main audio or another translator’s audio, which can be useful when a translator doesn’t know the main language being spoken, but knows another language the audio is being translated to. This feature requires client version 5.9.6 or higher and must be enabled by Zoom.
+ Expanded access to invitee status feature 
+Host can view which calendar invitees have or have not joined the meeting, and can Zoom chat or video call those who have not joined. Formerly only available to Basic and Pro accounts, most Zoom accounts will have access to this feature. If your account does not yet have this feature and you would like to, please contact Zoom to have this enabled.
+Meeting features
+Expand/Collapse all Breakouts when self-selecting 
+When self-selecting Breakout Rooms, participants can quickly expand all or collapse all available breakout rooms. This makes it easier to find and select the desired breakout, in particular when there are many breakout rooms available to choose from.
+ Chat features
+ Enhancement to public channel mentions 
+Users on the same account will be able to see and click on mentions of public channels, regardless of if they are a member of the channel or not. Clicking on the channel mention link when not already a member of the channel will provide the user with a channel preview and the ability to join the channel. External users will not be able to view the channel mention link, unless already a member of that channel.
+Zoom Apps features
+Enhancement to App notifications 
+In addition to notifications when an App is pre-approved for use, users will also get notifications when Pre-approval has been disabled, allowing users to install any App on the Marketplace.
+Resolved Issues
+ Minor bug fixes
+ Security enhancements
+ Resolved an issue regarding SMS not appearing in the client 
+ Resolved an issue for a subset of users regarding joining meetings with a former vanity url directly from the desktop client 
+ Resolved an issue regarding an incorrect/invalid SSO company domain field preventing normal email/password login 
+ Resolved an issue regarding not being able to join different meetings simultaneously on desktop when using EnforceAppSignInToJoin GPO policy 
+ Resolved an issue for a subset of users regarding far end camera control no longer smoothly adjusting PTZ cameras
+ Resolved an issue regarding some Receive Queue Calls toggles not being visible on smaller screens 
+ Resolved an issue regarding Virtual Background images able to be uploaded when disabled 
+ Resolved an issue for a subset of users regarding sharing a presentation with the Turkish version of Powerpoint 
+ Resolved an issue regarding the Jabra Evolve 65 headset
+ Resolved an issue regarding HID controls with the Logitech H820e headset 
+ Resolved an issue for a subset of users regarding a failed startup registry link 
+ Resolved an issue regarding registry product names not distinguishing between 32-bit, 64-bit, and ARM64 
+ Resolved an issue regarding the Windows account name being used instead of the user’s profile name 
+ Resolved an issue for a subset of users regarding invalid local recording paths 
+ Resolved an issue regarding the Zoom app icon on the Start 
+ Enable Language Interpretation by default 
+Account owners and admins can enable the Language Interpretation feature by default when scheduling Zoom meetings. Previously, when scheduling a new meeting, the Language Interpretation feature was always off by default.
+New and enhanced features
+General features
+Additional MSI/PLIST/GPO/MDM options
+Require client or app authentication when joining a webinar - EnforceAppSignInToJoinForWebinar 
+Disabled by default, this requires the desktop client or mobile app to be signed in to a Zoom account to join any webinars. If the host requires specific authentication, the user joining will have to pass that specific authentication check as well.
+Require authentication when joining a webinar - EnforceSignInToJoinForWebinar 
+Disabled by default, this requires attendees to be signed in to a Zoom account to join any webinars. Attendees can be signed-in on the web portal when joining through the join URL, or on the desktop client or mobile app directly. If the host requires specific authentication, the user joining will have to pass that specific authentication check as well.
+Require post-meeting virtual background auto-reversal - EnableAutoReverseVirtualBkgnd
+Disabled by default, this enforces the use of the post-meeting virtual background auto-reversal setting, which is controlled by account admins.
+Disable use of Meeting Reactions - DisableMeetingReactions 
+Disabled by default, this option disables the use of reactions for any meetings hosted or joined by this device.
+Disable use of Non-verbal feedback - DisableNonVerbalFeedback 
+Disabled by default, this option disables the use of non-verbal feedback for any meetings hosted or joined by this device.
+Require hardware acceleration to optimize video sharing - EnableHardwareOptimizeVideoSharing 
+Enabled by default, this controls the state of the Use hardware acceleration to optimize video sharing option, found under the Advanced section of the Share Screen settings tab.
+Require low-light video setting - EnableLightAdaption 
+Disabled by default, this controls the state of the Adjust for low light video setting.
+Set low-light video setting to Auto/Manual - EnableAutoLightAdaption 
+Enabled by default, but dependent on the state of EnableLightAdaption, this option controls if the low-light video setting is set to Auto (enabled) or Manual (disabled). The manual option provides a slider control to adjust how much to compensate for low-light, whereas Auto will adjust this automatically.
+ Meeting/webinar features
+
+Enhanced registrant authentication option 
+Allows hosts to require webinar and meeting registrants be signed-in to the Zoom account associated with the email they registered to join this session with. If trying to join without being signed-in or signed-in with the wrong account, they will be notified and given the option to sign-in or switch account. This feature will not be immediately available, as it is dependent on a backend server update currently scheduled for February 7, 2022. 
+Additional Blur Background enablement methods 
+Users can quickly blur their backgrounds, without needing to access their Zoom client settings. The Blur My Backgroundoption is available from the start/stop video menu in the main toolbar, the 3-dot menu on the user’s video tile, and by clicking anywhere on your video image. The option is also available on the self-preview screen before the user enters a meeting.
+Post-meeting virtual background auto-reversal 
+Users can select and use any virtual background before or during any Zoom meeting. However, after the meeting is over, the user's background will be automatically changed to a default virtual background chosen by the admin.
+ Meeting features
+ Create, remove, rename breakout rooms after launch
+Breakout rooms no longer need to be closed in order to rename or add/remove additional rooms. Account owners and admins can enable the ability for hosts to create, remove, and rename breakout rooms while they are open and in use. This feature requires client version 5.9.3 or higher and must be enabled by Zoom.
+ Add video to waiting room 
+Account owners, admins, and users can add a video when customizing the appearance of the waiting room in the web portal. Participants in the Waiting Room are able to view the video while they wait for the host to allow them into the meeting. This feature requires client version 5.7.3 or higher and is available for all paid accounts.
+Zoom Apps features
+Collaborate with Zoom Apps 
+The host can invite other meeting participants to collaborate on supported Zoom Apps, allowing them to work together directly in the Zoom App. This is similar to standard screen sharing, but collaboration allows for direct interaction with the document or project, rather than annotation on use of remote control. Zoom Apps supporting this feature will be available soon.
+Resolved Issues
+ Minor bug fixes
+ Security enhancements
+ Resolved an issue regarding inaccurate call status on call monitoring 
+ Resolved an issue regarding removed imported contacts 
+ Resolved an issue regarding a link to the Settings page in the web portal not accounting for a vanity URL 
+ Resolved an issue regarding the Slow/Fast update cadence option being removed from IT installed desktop clients 
+ Resolved an issue regarding the join different meetings simultaneously on desktop feature not working properly
+ Resolved an issue for a subset of users regarding slides not advancing for viewers 
+ Resolved an issue for a subset of users regarding no video preview when using external cameras 
+ Resolved an issue regarding mirror video not functioning properly during an immersive view 
+ Resolved an issue for a subset of users regarding the Receive Queue Calls toggle not being visible when there are more than 25 call queues 
+ Resolved an issue regarding the MSI MuteVoIPWhenJoinMeeting option 
+ Resolved an issue regarding an inaccurate error message when trying to pair with a nearby Zoom Room 
+ Resolved an issue for a subset of users regarding crashes when selecting a file or virtual background 
+ Resolved an issue regarding joining an 
+ Minor bug fixes
+ Security enhancements
+ Resolved an issue regarding editing s
+ General features
+ Upgrade to 64-bit within Check for Updates 
+When users are checking for updates on a 64-bit device and have the 32-bit version of the desktop client installed, they will be updated to the latest version of the 64-bit client instead. This upgrade is distributed to a percentage of random, eligible users every day. 
+Observe privacy settings of calendar events 
+When assigning scheduling privileges to other users in Zoom, users can choose if they can manage any meetings that were marked as private in Outlook or Google calendar. If they cannot manage private events, these users cannot see the invite link, meeting topic, or attendee list.
+ Improved and expanded emoji support
+Our emoji suite has been upgraded to provide almost 900 more emojis for use in in-meeting chat and Zoom chat. These new emojis include various skin tones and are Unicode 13.1 compatible.
+ Additional MSI/PLIST/GPO/MDM options
+
+DisableUpdateTo64Bit - Prevent automatic upgrade to 64-bit client 
+Disabled by default, this prevents the desktop client from automatically choosing and installing the 64-bit version of the client when downloading and installing a new version. 
+DisableManualClosedCaptioning - Prevent use of manual closed captioning 
+Disabled by default, this prevents the use of manual, user-entered captioning in meetings and webinars.
+ Meeting/webinar features
+ Save custom gallery view order
+Meeting hosts can save the customized gallery view order for subsequent meetings. The customized gallery order is saved to each unique meeting ID, which allows the host to load the saved customized gallery order to avoid continually customizing the gallery order for each meeting.
+Meeting features
+Schedule meetings with Focus mode
+Hosts can schedule a meeting with Focus mode to be started automatically when the meeting starts, in order to provide less distractions to all meeting participants.
+Disable Broadcast Message from host to breakout rooms
+Admins on the account can now disable the ability for meeting hosts to broadcast messages to all breakout room participants.
+ Webinar features
+ Enhanced panelist authentication option
+Webinar hosts can require panelists to be signed-in with the account associated with the email they are set as a panelist with. If trying to join without being signed-in or signed-in with the wrong account, they will be notified and given the option to sign-in or switch account.
+Chat features
+Preview public channels
+Public channels can be previewed before joining and will show the channel name, description, number of members, and some recent messages. Previewing is not available when Advanced Chat Encryption is turned on, and recent messages will not show if the channel admin has restricted new members from seeing previous messages.
+Enhanced search when tagging a channel
+Enhancements when tagging a channel in a chat message allow users to type any string of characters to find and tag the channel
+Enhancements to group chats
+Various enhancements to group chats in order to improve discoverability. The display of users in a group chat is enhanced to make it easier to distinguish between group chats. Additionally, users can give a group chat a topic, without having to convert it into a channel.
+GIF send enhancement
+When selecting a GIF from the GIPHY search panel, the GIF will be displayed in the message compose box. Additional text can be added before sending the GIF.
+Recent search history
+Search will show you a history of your recent searches, and selecting one will perform that search again.
+Missed meeting call button
+When contacts attempt to call you to join a video meeting and you are unavailable, these missed meeting calls will be centrally located so that you can quickly check what you missed, with the ability to jump to the chat or channel or start a video call based on the missed meeting call.
+ Zoom App features
+ Pre-approved app notification
+Apps that have been pre-approved by account admins will now notify users of their new status and availability for installation. This notification will only appear for users or user groups the app has been pre-approved for.
+ Support for Zoom Apps in Breakout Rooms
+Zoom Apps can now be accessed and used while in Breakout Rooms. This feature requires version 5.8.3 or higher.
+Phone features 
+Video greetings and videomail
+If enabled by the admin, users can record a video greeting that is played for missed inbound calls from other Zoom Phone users in the same account. These users can then leave a video voicemail message (videomail) that can be played back.
+Transfer calls in Desktop Power User experience (Power Pack)
+Users with the Power Pack add-on can search for contacts and transfer calls directly from the Desktop Power User experience, without having to open the main Zoom client window.
+Resolved Issues
+ Minor bug fixes
+ Security enhancements
+ Resolved an issue for a subset of users regarding video quality being limited when a Teams room joins a Zoom meeting via guest join 
+ Resolved an issue regarding short-form Youtube links not providing a link preview in Zoom chat 
+ Resolved an issue regarding meeting titles with Japanese characters are erased 
+ Resolved an issue regarding the inability to make certain international calls to numbers located in Uruguay 
+ Resolved an issue regarding 8:9 aspect ratio videos playing incorrectly in a meeting 
+ Resolved an issue regarding 1080p video in Gallery view 
+ Resolved an issue regarding not being able to join different meetings simultaneously on desktop when enabled 
+ Resolved an issue for a subset of users regarding importing contacts from O365
+ Resolved an issue for a subset of users regarding proxy settings and split tunneling 
+ Resolved an issue regarding the selected portion of shared screen moving up slightly after stopping/starting sharing 
+ Resolved an issue regarding EnforceAppSignInToJoin and AutoSSOLogin MSI options
+ Resolved an issue for a subset of users regarding messages between first time 1-on-1 chat users not appearing and potentially crashing the desktop client
+
+ Change in defaults of MSI/PLIST/GPO/MDM options
+
+Blocking of Untrusted SSL Certificates now enabled by default 
+By default, the BlockUntrustedSSLCert MSI/GPO/PLIST option will now be enabled, automatically blocking connections to untrusted SSL certificates.
+Silent auto-update now enabled by default
+By default, the EnableSilentAutoUpdate MSI/GPO/PLIST option will now be enabled, which updates the desktop client without the install wizard appearing.
+New and enhanced features
+ General features
+ Automatic updates 
+Users can enable the desktop client to update itself when updates are available for install. Users can choose between 2 different update cadences: Slow (default) for fewer updates and better stability, or Fast for the newest features and updates. This will be enabled by default for standard installations, but disabled for the package for IT Admins for managed installations. Enterprise users with the existing automatic update option disabled are unaffected.
+ Additional MSI/PLIST/GPO/MDM options
+Set auto-update frequency - SetUpdatingChannel 
+Allows admins to set which update cadence to follow when AutoUpdate is enabled: Slow (default) for fewer updates and better stability, or Fast for the newest features and updates.
+ Turkish and Polish language support 
+The Zoom client now supports Turkish and Polish. By default, Zoom will match the operating system’s language if supported and users can manually select a language of their choice.
+Meeting/webinar features
+Presentation slide control 
+Control progression of presentation slides without needing to ask the participant sharing the presentation for the next slide. Supports presentations in Google Slides, Powerpoint, and Keynote. The account owner and admins can enable this for use at the Account-, Group-, and User-level web settings. This feature requires version 5.8.3 or higher.
+Spotlight self for host in Participants list 
+Hosts can use the menu in the participant list to spotlight themselves, in addition to the menu from their video tile. This feature eliminates the different experience for self spotlighting versus other people, by controlling it all in one place.
+Compatibility enhancements for Smart Gallery
+Various enhancements for how the client handles the multi-stream Smart Gallery view from a Zoom Room, such as moving all Zoom Room participants into a Breakout Room together, in-meeting chat messages are sent to the Zoom Room as a whole (instead of sent to individual members), and assigning the Zoom Room host controls, rather than an individual participant.
+ Webinar features
+ Order Q&A chronologically or by upvotes 
+User submitted Q&A questions are sorted by default chronologically, with the most recent appearing at the bottom of the list. The host and panelists can also sort the questions by number of upvotes, to prioritize more popular questions.
+ Guest indicator for submitted Q&A 
+Questions submitted by external attendees in a webinar will be labeled with the Guest marker, to make it clearer which questions are internally or externally submitted.
+Chat features
+Consolidated display of transferred files and images 
+When sending up to 6 files or images, the files/images are displayed in the same chat bubble, along with any accompanying text. This feature requires version 5.5.0 or higher and is not available when enhanced chat encryption is enabled.
+ Phone features
+ Caller verified icon for incoming calls 
+Zoom Phone will show “caller verified” check marks to help users identify robocalls and spam calls. A check mark icon appears if the carrier has authenticated the calling party and they are authorized to use the calling number. The check mark icon appears in the call log and inbound call notifications (client, app) for these inbound call scenarios:
+Extension to extension calls in the same account
+Call between Zoom Phone customers
+Incoming calls from the U.S. public telephone network when the originating carrier has provided an A-level attestation per STIR/SHAKEN guidelines.
+View starred contacts
+Users can view starred contacts in the Phone tab to easily place calls to these contacts. Users can also view starred contacts when transferring a call.
+Resolved Issues
+ Minor bug fixes
+ Security enhancements
+ Resolved an issue for a subset of users regarding sharing a mp4 video in a meeting 
+ Resolved an issue for a subset of users regarding captions provided by 3rd-party service not being visible to all users 
+ Resolved an issue for a subset of users regarding unnecessary popups on devices with OpenSSL installed
+ Resolved an issue for a subset of users regarding a drop in video quality when spotlighting more than one participant 
+Notes:
+ The Schedule meetings with Focus mode and Save custom gallery view order features have been pulled from release due to issues with deployment and will be available in another upcoming release.
+ The Add video to waiting room feature has been pulled from release pending some final enhancements. 
+ The Conference barge for shared line groups was removed from release notes, as it is already available in an earlier version and will be available for use after the web update scheduled for November 21. 
+November 15, 2021 version 5.8.4 (1736)
+Download type: Prompted
+Note: This client release was originally scheduled for November 8, 2021. 
+New and enhanced features
+ Meeting/webinar features
+
+Optional Reclaim Host when rejoining
+When the original host of a meeting rejoins, they are now given the option to reclaim host controls or remain as a participant, in order to not disrupt the current host. This feature requires version 5.8.3 or higher and will not be immediately available, as it is dependent on a backend server update currently scheduled for November 14, 2021. 
+Resolved Issues
+ Minor bug fixes
+ Security enhancements
+ Buffer Overflow Issue - ZSB-21019 and CVE-2021-34423
+ Information Disclosure Issue - ZSB-21020 and CVE-2021-34424
+October 25, 2021 version 5.8.3 (1581)
+Download type: Manual
+New and enhanced features
+ General features
+
+Additional MSI/PLIST/GPO/MDM options
+Prevent use of Remote presentation control - DisableSlideControl 
+Disabled by default, this option will disable the remote presentation control feature on the client.
+ Meeting/webinar features
+ Polling enhancements for quizzing 
+Account owners and admins can enable advanced polling to allow meeting hosts to build advanced polls or quizzes that contain multiple question/answer types, allow for images, and automatically record answers. New question/answer types include match combinations, rank answers, and fill in the blank. This feature requires version 5.8.3 or higher and currently must be enabled by Zoom. This will be enabled for all on November 7, 2021.
+ Profile photos for in-meeting chat 
+In-meeting chat now displays the participants’ profile photos, just as they appear in Zoom Chat. If no image is available for a participant, the participant’s initials appear. The account owner and admins can enable this for use in the Account-level web settings, and users can also control this feature in the client settings as well.
+ Prevent display name changes when SAML mapped 
+Administrators can configure SAML mapping so that the desktop client blocks SSO users from changing their display name when joining a meeting with the Join button.
+ Full availability of Live Transcription 
+As promised earlier this year, Zoom’s Live Transcription service is now available for Free accounts. This enhancement provides access to Live Transcription for all account and user types. Live transcription must be enabled in the User-level Settings page for use in meetings and webinars.
+ Seasonal scenes for Immersive View 
+Zoom is adding additional fall and Halloween themed scenes for use in Immersive View.
+Meeting features
+Two-way chat with Waiting Room participants 
+The meeting Host and Co-hosts can now chat back-and-forth with participants in the Waiting Room. Waiting Room messages can be sent to all participants in the Waiting Room or just individual participants. Only the host/co-host can see responses from those in the Waiting Room. This feature must be enabled in Waiting Room web settings and requires client version 5.8.0 or higher.
+ Chat features
+ Unread message badge in search results 
+The search results for contacts and channels include the unread badge counts for each. For high volume users who receive a constant influx of new messages, these badge counts help to visually differentiate between contacts and channels that would otherwise all look the same.
+ Enhancements to @ mentions page 
+The @ me mentions page now indicates which messages are unread.
+ Highlighted @ mentions 
+When you are mentioned in a channel or multi-user chat, the message you are mentioned in will be temporarily highlighted in the conversation.
+ Chat history button 
+Accessing your history of recent chats now has a dedicated button. This provides quick access to the 10 previous chats you accessed, including channels, 1-on-1 chats, and unnamed multi-user chats.
+Resolved Issues
+Minor bug fixes
+Security enhancements
+Resolved an issue regarding delays/freezes when connecting to meetings 
+Resolved an issue regarding country codes not being filtered by selected country 
+Resolved an issue for a subset of users regarding the inability to share again after pausing and then stopping sharing 
+Resolved an issue regarding video panels being randomized when setting a custom order 
+Resolved an issue regarding the camera rotation resetting for each meeting
+October 11, 2021 version 5.8.1 (1435)
+Download type: Manual
+Note: This client release is for Windows, macOS, and Android only. 
+Resolved Issues
+Minor bug fixes
+Resolved an issue for a subset of users regarding the 64-bit desktop client not launching
+September 22, 2021 version 5.8.0 (1324)
+Download type: Manual
+Note: The client release for Windows was delayed until Sept 23, 2021.
+New and enhanced features
+General features
+
+ Unique file names for local recordings 
+Each file created as part of a local recording will be given a unique file name. The type of file will start the name (video, audio), followed by a string of numbers. Users will also be provided suggestions on what to rename the files, if they choose to further customize the file names.
+ Additional MSI/PLIST/GPO options
+Disable auto launch SSO URL - DisableAutoLaunchSSO 
+Disabled by default, this option prevents Zoom from automatically launching the previously used SSO URL. This is useful for users with multiple accounts, each having their own SSO URL.
+ Support for additional time zones 
+Scheduling on the client now supports the GMT -7 Yukon, GMT +2 Chisinau, and GMT +5:30 Colombo time zones, which were already supported when scheduling in the web portal. 
+Meeting/webinar features
+Stop incoming video 
+Users in a meeting can easily disable all incoming video through in-meeting controls. This may be done to preserve bandwidth for shared content, or to avoid mental fatigue from viewing multiple, active video participants. The account owner and admins can enable this for use in meetings at the Account-, Group-, and User-level web settings. Once enabled through web settings, users must then enable it for use in the Desktop client's Video settings. 
+Poll access for alternative hosts 
+If meeting hosts add alternative hosts to their meeting, they can allow alternative hosts to add or edit polls. The alternative host in the meeting will have the additional in-meeting options to add or edit a poll, which launches the web portal to make the changes.
+Easier emoji selection for in-meeting chat 
+After entering ‘:’ and two or more letters, available emojis matching that description will be shown. For example, entering “:jo” will provide the following matching emojis: :joy:, :joy_cat:, :joystick:, :majong:, and :black_joker:
+Aligned separate audio tracks for local recordings 
+When recording separate audio tracks for a local recording, the audio tracks will be aligned, in that each track is in sync with each other and start at the same. Recording tracks will increase in size slightly, as extra padding will be added to each file to ensure tracks all begin at the same time.
+Updated recording privacy disclaimer 
+The recording disclaimer has been updated to provide clearer information regarding how their data is being handled and who can access it.
+ Meeting features
+ Security settings overview 
+The host and co-host in a meeting can quickly check what security features are currently in effect for the meeting they are hosting. This information is accessible through the in-meeting encryption shield, located in the top-left corner of the meeting.
+ Participant attendance status 
+If the host has the Google or Outlook calendar integration configured, Zoom will display a list of others invited to the meeting but not yet in attendance, allowing for quick checks if everyone is in attendance yet. Their invite response (Accepted, Declined, Maybe) is listed with their name and the host can easily invite them to the meeting from the participants panel. This feature can be enabled for use in meetings at the Account-, Group-, and User-level web settings, and will initially be available only for free accounts as part of a beta.
+Chat features
+Rich text formatting support
+Enhanced rich text message capabilities allow for better chat messages formatting options. These options are available for composing a new message, replies, and editing messages. Expanded options for the desktop client include bold, italics, underlining, strikethrough, highlight and text color, font size, bulleted and numbered lists, hyperlinks, and indenting. Mobile apps will gain the ability to bold, italicize, strikethrough, underline, and create a bulleted or numbered list.
+Quote messages 
+Users can quote specific messages sent in a channel, which helps avoid confusion and eliminates the need for others to scroll up to view the initial question or message. Images and bot messages cannot be quoted.
+Additional customization for Personal Note 
+The Personal Note can be configured to display for a specific period of time, as well as appearing above the text input box when someone is composing a message to you. For example, a user may say they are Out of office for the next few days, and that note will appear above the drafted message when someone is chatting directly with or mentioning them, warning them of the user’s current unavailability.
+Support for search and Link Previews with Advanced Chat Encryption 
+Chat history search and hyperlink previews are now supported when Advanced Chat Encryption is enabled. Search is limited to messages that have already been decrypted and are stored on the device being used to perform the search. Link previews must first be enabled by the account admin in the web portal, as the default for this setting is off.
+Clearer notification when converting a group-chat into a channel 
+When a multi-user chat is named, this converts the group chat into an official chat channel. The user changing the channel will be more informed of the effect of the change, and other users in the group will be notified of the changes as well, helping them locate the channel by its new name.
+Updated New Chat button 
+To save space for chat contacts and channels, the New Chat button has been updated and moved in-line with other chat buttons, such as bookmarked messages, files, and contact requests.
+ Zoom Phone features
+ UI enhancement to phone number labels 
+When searching for phone users using the dial pad or SMS search field, users can view the associated phone number labels by clicking or tapping the right arrow icon.
+ Prompt for emergency address 
+If the admin has enabled nomadic emergency services and personal locations; or allowed users to manage their emergency address, users will receive prompts to confirm or update their emergency addresses until they do so.
+Resolved Issues
+Minor bug fixes
+Security enhancements
+Resolved an issue regarding slow connections after switching networks 
+Resolved an issue for a subset of users regarding mute upon entry and recording disclaimer prompts 
+Resolved an issue for a subset of users regarding duplicated virtual background images set by admins 
+Resolved an issue for a subset of users regarding unmuting issues after taking a Zoom Phone call off-hold 
+Resolved an issue regarding more than 30 participants sharing their screen simultaneously 
+MSI flag required for Outlook IM Integration on MSI deployments
+Due to a potential conflict with components shared with other Microsoft products, such as Skype and Teams, the integration for Outlook status syncing will not be automatically available with MSI deployments. This must be deployed by admins with the existing MSI/GPO option IntegrateZoomWithOutlook. The exe version is unaffected, as it already required admin credentials to be enabled.
+New and enhanced features
+ General features
+ SSO logout notifications 
+If the existing Enforce automatic logout after user has been logged in for x days SSO setting is enabled, users are forewarned when they will be automatically signed out of the desktop client and mobile app. Warnings will be provided at login, 24 hours, 1 hour, and 5 minutes before logout.
+Meeting/webinar features
+
+ Transfer meetings between devices 
+Seamlessly transition meetings from mobile to desktop and back to mobile, allowing you to take advantage of the mobility of the mobile client and the more feature-rich desktop client to suit your needs. This feature will not be immediately available, as it is dependent on a web release currently scheduled for August 21, 2021, and will be rolled out to customers over time.
+ Optimize for video auto-detect 
+When Optimize for video clip is enabled but no video is detected, the client will automatically disable this feature to provide better visual quality of the shared content, then automatically re-enable when video is detected again.
+Meeting features
+
+ Limit screen sharing for meetings with external participants 
+Admins can apply restrictions to specific users or to groups through web settings to prevent these users from screen sharing when a guest participant (a user external to the host’s account) joins a meeting. These users will still be able to screen share when there are no guest participants.
+Chat features 
+Chat sidebar enhancements 
+Further quality-of-life enhancements to the chat sidebar, including easy and clear designation if a channel is public or private. For the desktop clients, fewer chats/channels are shown per group, as well as the ability to expand to see more, in order to provide greater overall visibility of all chats and channels.
+Relocation of Search bar 
+The Search bar in the client has been relocated to the left side of the client.
+ Phone features
+ Privacy feature for shared lines
+If enabled by an account owner and admin, shared line group and shared line appearance members can lock their current call. This prevents others from picking up a held call, listening, whispering, barging, or taking over the call.
+ Company phone number while in a call
+Phone users can view their own company number and extension while in a call. Previously, only the extension was displayed.
+ Phone number labels
+If phone number labels were set in the web portal, they will show in user profile cards and dial paid search results. This feature will not be immediately available, as it is dependent on a web release currently scheduled for August 29, 2021.
+Resolved Issues
+
+
+Resolved an issue for a subset of users regarding rotating the Surface Pro and the user’s video not rotating as well 
+Resolved an issues for a subset of users regarding the client crashing when no camera is detected 
+Resolved an issue for a subset of users regarding the sharing toolbar being difficult to move when multiple screens are arranged above one another 
+Resolved an issue regarding inaccurate MSI package details 
+
+ Introducing Zoom Apps for meetings - Windows, macOS
+Zoom Apps combine your favorite apps with the power of video communications by allowing you to access them directly in your Zoom desktop client and meetings. With Zoom Apps, you can streamline workflows, collaborate with colleagues, and also bring elements of fun and wellness into your interactions with colleagues, friends, and family members.
+These apps, reviewed and approved by Zoom, are available for installation directly in the desktop client or from the Zoom Marketplace. Once installed, work on projects with the app directly in the Zoom desktop client, or launch a meeting with the opened app and invite others to view and collaborate with you.
+
+This requires the Zoom desktop client version 5.7.3 or higher.
+ Consolidated chat search 
+The Search and Jump to bars in the desktop client are consolidated into one unified search. Results can be sorted by type (contacts, channels, files, messages).
+New and enhanced features
+ 
+ Additional MSI/PLIST/GPO options 
+ Require authentication when joining a meeting - EnforceAppSignInToJoin 
+Disabled by default, this requires the desktop client or mobile app to be signed in to a Zoom account to join any meetings. If the host requires specific authentication, the user joining will have to pass that specific authentication check as well.
+ Install latest version automatically - AlwaysCheckLatestVersion 
+Disabled by default, if a user’s version is lower than the newest available version, then the app will download the newer version automatically.
+ Disable use of Closed Captioning - DisableClosedCaptioning 
+Disabled by default, this disables use of closed captioning in meetings or webinars.
+ Disable use of Q&A - DisableQnA 
+Disabled by default, this disables use of Q&A in webinars.
+ Set behavior for Play sound when I receive a new message setting - PlaySoundForIMMessage 
+Enabled by default, this can disable the audio notifications when an IM message is received.
+ Show a preview of IM messages in system notification - ShowIMMessagePreview
+Enabled by default, this can disable the message previews in system notifications when an IM message is received.
+ Mute IM notifications when in a meeting - MuteIMNotificationWhenInMeeting 
+Enabled by default, this can prevent users from muting IM message system notifications when in a meeting.
+Consistent date formatting 
+Date formatting for chats, meetings, and call logs are adjusted to align with date formatting used in other desktop and mobile versions.
+ Meeting/webinar features
+ Reintroducing: Active Apps Notifier 
+When an app has real-time access to meeting/webinar content, such as video, audio, and/or chat, the Active Apps Notifier will appear in the same window as the current meeting in the top-left corner next to the encryption icon. Details of which apps have access and which participant approved the app are displayed. Clicking on the app opens the Marketplace page to provide more information about the app and its developer.
+ Local Recording support for Immersive View 
+Hosts using the Immersive View feature can record this view locally to the device. When in Immersive View, only the immersive scene will be captured, while other video thumbnails will not be recorded.
+ Watermark enhancements 
+Watermarks will display the entire email address over a participant’s shared screen and video tile, as well as displayed over their video in most video layouts (Speaker, Gallery, Side-by-side). The watermark is also visibly more apparent as a tiled pattern across the video or shared screen.
+ Non-verbal feedback enhancement: Coffee cup 
+The Coffee cup option, indicating you are temporarily away from the meeting, is returning to Non-verbal feedback options. This non-verbal feedback option feature requires client version 5.7.3 or higher.
+ In-meeting chat emoji support 
+Participants can select and use emojis directly in the in-meeting chat panel.
+Meeting features
+Focus mode 
+In focus mode, only the host can see participants’ videos or profile pictures when video is off. Additionally, participant’s screen sharing can only be viewed by the host, who can switch between multiple shared screens and optionally allow participants to view others’ shared screens. Focus Mode is activated from the “More” menu on the toolbar. The account owner and admins can enable Focus mode for use in meetings through web settings. This feature will not be immediately available, as it is dependent on a web release currently scheduled for August 7, 2021.
+Post-meeting survey 
+Meeting hosts can now configure a post-meeting survey to launch at the end of a meeting. This survey can be created using the native Zoom survey tools, or a link to a 3rd-party survey can be used instead. Participants will be prompted with the survey once the meeting ends.
+Mute and Video Off when joining a recorded/live streamed Meeting 
+When participants join a meeting that is already being recorded and/or live streamed, they will join with their video off and muted until they consent to the recording prompt. After consenting, they will be able to unmute and turn on their video, if the host allows them to.
+ Chat features
+ Video playback directly in Zoom chat 
+Users can send and receive video files in Zoom Chat, then download and play the video directly in the Zoom client. Video files are limited to MP4, M4V, and MOV types, and limited to 30MB. If larger than this or not in a supported format, the video will transfer through normal file transfer. Sending videos on the mobile app will transcode the video file into an MP4 (H.264 codec with ACC stereo audio) with 720p resolution maximum.
+Phone features 
+Call queue and auto receptionist SMS (Power Pack) 
+If enabled by the account owner or admin, phone users can send or receive SMS messages using phone numbers associated with call queues or auto receptionists. This feature requires the Power Pack add-on.
+Meet and chat options 
+Users can access options to meet or chat with the associated users when viewing the History, Voicemail, Lines, or SMS tabs. The meet and chat options only appear if the associated phone number belongs to an internal Zoom user. Chat option only appears for customers who have chat deployed.
+View contact card and presence 
+Users can view users’ contact card, profile picture, and presence status in the History, Voicemail, Lines, or SMS tabs. This only applies if the associated phone number belongs to an internal Zoom user.
+ Resolved an issue regarding gender pronouns being cut off when participant has video off and no profile pic 
+ Resolved an issue for a subset of users regarding breakout room assignments prepared by co-host are lost when host joins 
+ 
+Support for gender pronouns 
+If enabled by account admins and added to their profile by either the user directly or through SAML mapping, a user’s gender pronouns are displayed in their contact card and as part of their display name in meetings and webinars.
+ Scheduling privilege and alternative host between linked master/sub accounts
+Users can add alternative hosts and assign scheduling privileges to other users who are in the same organization, now including users in sub-accounts and the master account. Account owners and admins must link the master/sub account in IM settings to see this account-level setting.
+ Authentication profile enhancement: Domain block-list
+Configured at the account, group, and user-level settings, users authenticated with a specific domain are blocked from joining meetings and webinars hosted by this account.
+ Update to ARM version of desktop client
+When a user installs the non-ARM version of the desktop client, they will be prompted to update to the ARM version of the client. This prompt is disabled if AutoUpdate is disabled through admin install of MSI or GPO options.
+Note: The ARM version of the client does not currently support Virtual Background.
+Meeting/webinar features
+Custom video filters
+Account admins can upload custom frame or foreground stickers for users on their account to use. Images must be in either PNG or JPG file format and can be up to 1 MB in size.
+Request Live Transcription enablement as participant
+Meeting participants and webinar attendees can request the host enable Live Transcription, avoiding interrupting the host to request this verbally or through chat. This can be also requested anonymously.
+Pairing with Zoom Rooms on Zoom desktop client 
+Users can pair their desktop client with their Zoom Rooms or Zoom for Home device. When a meeting is started on the desktop client, users can choose to start the meeting on the paired device.
+NDI live streaming consent
+Participants are notified when live streaming through an NDI device begins, providing them the option to consent or leave the meeting.
+Hide full transcript panel
+When enabled through web settings, the side-panel that displays the full transcript of Closed Captioning or Live Transcription is disabled. Captioning is only visible in the video window of the meeting or webinar.
+Secure share with window filtering
+Found in the Advanced section of the Screen Share settings, this additional screen capture mode prevents background information, such as windows seen when minimizing a window and maximizing another, from being unintentionally shared. This will only share the content of the window you selected to share and blurs everything else.
+ Meeting features
+ Information Barrier enhancement: Support for Breakout Rooms
+Breakout Rooms can be used when the Information Barrier feature is enabled, allowing use of breakout sessions while preventing unauthorized sensitive data from being shared.
+Note: This feature is dependent on a web release scheduled for July 3, 2021. 
+ Share screen to all Breakout Rooms
+When sharing screen in the main session, the host or co-host can share their screen to all active Breakout Rooms. Any active sharing in the breakout sessions are interrupted and any annotation or whiteboarding prompts the sharer to save them before viewing the shared screen from the host. Host and participants must be on version 5.7.0 or higher to utilize and see this feature.
+Webinar features
+Webinar File Transfer enhancement: file type and panelists restrictions
+Account owners and admins can control file sharing in webinars, disabling entirely or restricting it to webinar hosts or panelists to share files in a webinar, as well as allowing specific file types and file size.
+ Chat features
+ Improvements to chat sidebar
+Various improvements to the chat sidebar, including: Separate sections for starred messages/contacts, single- and multi-user chats, and named channels, quick access icons for @me mentions, bookmarked messages, files, and contact requests, and changing the icon for named channels to #. Lastly, starred messages will now be referred to as bookmarked messages, to differentiate from starred contacts and channels.
+ Enhanced data privacy notification for chat channels with enhanced chat encryption
+Channel members are provided additional information regarding what information can be seen by others who are not members of the channel.
+Phone features
+Display additional phone numbers in user contact card 
+Users that have multiple numbers associated with their profile (work number, personal number, etc) will have these additional numbers shown on their contact card, and when clicked upon, will initiate a call to that number.
+View number of callers waiting in call queue
+Call queue members with the Power Pack add-on can view the number of callers waiting in the call queue.
+Enhancements to invite by phone 
+Users can use search through their directory of users when inviting participants by phone. They can also enable options to play greeting before the call is connected and require the participant to press 1 before begin connected. Users with Zoom Phone can change their caller ID before inviting by phone.
+Check connection to Zoom Phone server
+Users can access Statistics settings to check their connection to the Zoom Phone server to troubleshoot connectivity issues.
+Enhancement to call logs
+If a call queue member makes a call using the call queue’s direct phone number, the associated call log entry will show the call queue’s direct phone number. Previously, call logs only displayed the member’s direct phone number.
+Resolved issues
+ 
+ Resolved an issue regarding a slight delay in virtual background when joining a meeting
+ Resolved an issue with the video playback feature and stereo audio in a video
+ Resolved an issue for a subset of users regarding presenter view of a shared Powerpoint presentation 
+ 
+ Meeting/webinar features
+ Active Apps Notifier 
+When someone in a meeting or webinar is utilizing any app that has access to real-time content or personal information during a meeting, participants are given real-time notice of usage. Details of which apps have access and which participant is using the app are displayed, and clicking on the app opens the Marketplace page to provide more information.
+Note: This feature is dependent on a web release scheduled for June 14, 2021, and will not visible until then. 
+Resolved Issues
+Minor bug fixes
+
+
+Additional MSI/GPO options 
+Enable Silent Automatic Update - EnableSilentAutoUpdate
+Disabled by default in the MSI package, this option allows the desktop client to silently check for updates and install upon launching the client. This option requires the existing AutoUpdate option to be enabled, which allows the client to check for updates, and if this is disabled, EnableSilentAutoUpdate will fail.
+Persistent Notification banners until dismissed - AlwaysShowIMNotificationBanner
+Disabled by default, this option will force on the “Show notification banner on screen until dismissed” setting within the Chat settings of the client.
+Disable Accessing Zoom Apps in Client - DisableZoomApps
+This MSI/GPO option is disabled by default, and, when enabled, prevents access to Zoom Apps in the client. Zoom Apps is not included within this release. This option is being shared in advance so organizations have sufficient time to review, test, and deploy this setting if desired.
+ Meeting/webinar features
+ Virtual Background enhancements 
+Account admins can require users to use virtual background when their video is on, as well as set a default virtual background from the default or custom uploaded options. If the device does not meet the system requirements for virtual background, the user is not able to turn on their video.
+ Enhanced data privacy notices for live streaming 
+Participants are notified when live streaming begins regarding who can see, save, and share the information before they provide it.
+ Improved low-light adjustment for backlit environments 
+Participants with a backlit environment are brightened while the lighting behind them is unaffected.
+ Enhanced 3D transformation of video filters 
+Improvements to video filter rendering, providing better 3D effects and transformations when applied to face.
+Meeting features
+Enhanced data privacy notices for archived meetings 
+When joining a meeting that is being archived or archiving begins, participants are notified regarding who can see, save, and share the information before they provide it.
+ Webinar features
+ Enhanced data privacy notices for panelists and unmuted attendees 
+Joining as a panelist, promoted panelists, and attendees allowed to speak will be informed of the change to who can see, save, and share the information before they provide it with their increased role in a webinar.
+ Enhanced data privacy notices for joining webinar without registration 
+In-context user education for joining a webinar without registration that informs users who can see, save, and share the information before they provide it.
+Phone features 
+Add email address for cloud contacts 
+Users can enter an email address when adding or editing a synced cloud contact.
+Resolved issues
+ Minor bug fixes
+ Security enhancements
+ Resolved an issue regarding answered anonymous questions in Q&A being visible to all, rather than just the anonymous requester 
+ Performance improvements and optimizations for panelists in webinar
+
+ Immersive View
+Recreate the feel of your class or conference room by placing video participants onto a single virtual background. Participants are automatically placed onto provided scenes, but the host can upload their own custom background and adjust the arrangements as needed. This requires client version 5.6.3 or higher and works best when using Virtual Background, but not required.
+Resolved issues
+Minor bug fixes
+Resolved an issue for a subset of users regarding crashes when switching audio devices 
+Resolved an issue for a subset of users regarding an inability to end a webinar
+Resolved an issue for a subset of users regarding connection issues when using a proxy
+
+
+Enhanced Untrusted Server Certificate alerts 
+Untrusted Server Certificate alerts will now provide additional information about the error, such as the server name on the certificate is incorrect, failed revocation check, untrusted certifying authority, or an invalid certificate or associated chain. Users will also be able to view the certificates to assist in troubleshooting.
+Enhanced data privacy notices 
+In-context user education for various features, such as polling, Q&A, chat, whiteboard, closed captioning, and others, informs the user who can see, save, and share the information before they provide it.
+Improved power consumption 
+Technical enhancements to improve power consumption for the Windows desktop client.
+ Meeting/webinar features
+
+New annotation tool: Vanishing Pen 
+In addition to the arrow and spotlight tools, Vanishing Pen will allow the presenter to mark on the shared screen to highlight certain information, but the markings will fade away within a couple of seconds. This provides easier highlighting of information without having to undo or erase annotations.
+Clearer Original Sound designation when on/off 
+The in-meeting/webinar button for the Original Sound feature has been enhanced to provide a clearer designation of when the feature is on or off.
+Enhancement to screen sharing Zoom windows 
+When sharing screen and allowing Zoom windows to be seen during the share, Zoom windows can be minimized.
+ Meeting features
+ Full emoji suite for Reactions 
+Any emoji available for Zoom chat can be used as a reaction in a meeting. The host can also restrict reactions to the standard set, or allow use of the full emoji suite. This feature requires client version 5.2.0 or higher.
+Chat features
+Manager field available in contact card 
+When a manager is added to your Profile details, either manually or mapped through SSO, this will also be available in the desktop and mobile clients. Only users in your account will be able to view your manager in your contact card.
+Enhancements to deactivated user visibility 
+Deactivated users will no longer be searchable, unless there is existing chat history with that user. Profile information and available interaction options will be reduced in line with their diminished user status. Deactivated users will be listed at the bottom of any contact list or group.
+ Phone features
+ Recover call history, voicemail and recordings
+If enabled by the admin, users can restore their soft-deleted history, voicemail, or recording within 30 days. After that, it will be permanently deleted from the account. This feature needs to be enabled by Zoom.
+
+Enhancement to 3-way calling for Zoom Phone 
+When users are in a 3-way call and a call participant leaves the call, the call will continue for the remaining 2 users.
+Enhancement to MSI/GPO option: AutoUpdate 
+The AutoUpdate option will now also remove the Check for Updates button in the client when left disabled. Installing with this option enabled will provide the button in the client and allow users to check for and install updates.
+New and enhanced features
+ General features
+ Additional MSI/GPO options 
+ Enable Share Clipboard during remote control - EnableShareClipboardWhenRemoteControl
+Disabled by default, if enabled it will turn on "Share Clipboard" in remote control
+ Hide incoming calls while in meeting - HidePhoneInComingCallWhileInMeeting
+Disabled by default, if enabled it will prevent incoming call notifications while you are in a meeting.
+64-bit Zoom client 
+A separate installer for the 64-bit version of the Zoom client for Windows is available on the Downloads page.
+ Meeting/webinar features
+ Enhanced device testing for Epic integration 
+Users that join a Zoom meeting with their healthcare provider from Epic’s patient portal will now be able to test their camera, speakers, and microphone on their device. The clear pass/fail results are shared with their healthcare provider, informing them of any technical issues they may have in advance of their Telehealth visit.
+ Additional authentication option: Users in my account 
+An additional authentication method can be selected, requiring users joining your meeting or webinar to be signed-in to their profile within your account. This option is in addition to the existing authentication profiles: users who are signed into Zoom, users who are signed in to selected email domains, and users who are externally authenticated.
+Webinar features
+Additional attendee view controls 
+Attendee view layout controls will also be available in the Participants panel, under More. This is in addition to the attendee view controls available in the View options.
+Enhanced practice session and live webinar notifications 
+Notifications regarding if your webinar is still in practice session or live will be visible to all panelists, as well as the host.
+File transfer for webinar chat 
+Webinar hosts and panelists will be able to send files in chat. To send or receive files, users must be on version 5.6.0 or higher.
+ Chat features
+ Enhanced search filter: @me mentions 
+Chat searches can be narrowed to just include results containing mentions of the person who is searching.
+ Search in channel within channel options 
+The option to search within a specific chat channel can also be selected directly in that channel’s information panel, directly below Add Members.
+ Easier emoji selection 
+After entering ‘:’ and two or more letters, available emojis matching that description will be shown. For example, entering “:jo” will provide the following matching emojis: :joy:, :joy_cat:, :joystick:, :majong:, and :black_joker:
+Phone features 
+Power Pack experience
+If users have the Power Pack add-on, they can view phone lines and use in-call controls from a small panel that’s always on top of other applications. Phone users can also quickly find contacts and view their missed calls and voicemail.
+Call monitoring for shared line groups 
+If enabled by the admin, shared line group members who are monitors can listen, whisper, barge, or take over calls received by or sent to the shared line group.
+UI enhancement for unknown location notification 
+If nomadic emergency service is enabled by the admin, users will see a red notification icon in the Phone tab if they haven’t enabled location permission. The icon also appears when support for personal locations is enabled and users are currently in an unknown location
+UI enhancements for calls forwarded through auto receptionists 
+Calls forwarded through auto receptionists are labelled with the auto receptionist display name to make these easier to identify. This applies to incoming call notifications and call/recording/voicemail history.
+Copy direct phone number 
+Users can easily copy their direct phone number from their profile card or phone settings.
+Recover call history, voicemail and recordings 
+If enabled by the admin, users can restore their soft-deleted history, voicemail, or recording within 30 days. After that, it will be permanently deleted from the account. This feature needs to be enabled by Zoom.
+Bypass waiting room when elevating call to meeting
+When users elevate a current phone call to a meeting, the other call participant will bypass the waiting room if waiting room is enabled for everyone and the bypass option is enabled.
+Update emergency address 
+Users can set and update their emergency address directly in the client. Previously, users could only update using the web portal.
+Resolved Issues
+ Minor bug fixes
+ Security enhancements
+ Resolved an issue with video virtual background regarding the video being flipped or rotated 
+ Resolved an issue regarding removed webinar attendees trying to rejoin and incorrectly receiving message that they cannot rejoin due to declined registration 
+ Resolved an issue for a subset of users regarding adding additional wildcard domains for authentication profiles 
+ Resolved an issue for a subset of users regarding error 103033 when trying to join a meeting
+ Fixed an issue where the outbound caller ID was incorrect if the user’s default caller ID was set to a Meeting/webinar features
+ Enhanced custom gallery view with hidden non-video participants 
+Custom gallery view order can be utilized even when non-video participants are hidden. When a non-video participant turns on their video, their video will be added to the bottom-right corner of the last page of gallery view.
+ Clearer designation of shared content 
+When sharing begins, a notification is provided over the shared content, clearly showing what you are sharing and when participants are able to see the content. Requires at least 80% of participants to be on version 5.5.4 or higher for the host to be notified that the shared content is visible to participants.
+Resolved Issues
+Minor bug fixes
+Security enhancements
+Resolved an issue regarding slides as virtual background not recording properly
+Resolved an issue for a subset of users regarding pinning a non-authenticated users
+Resolved an issue for a subset of user regarding audio echo 
+February 8, 2021 version 5.5.2 (12494.0204)
+Download type: Manual
+Resolved Issues
+
+Relocated and enhanced attendee view controls for webinars 
+The options to push particular video layouts to webinar attendees has been moved from the Participants list to the View Options button, located in the top-right corner of the main video window. The layout options Follow Host’s View, Speaker, Gallery, andStandard (shared content with video thumbnails) now include Side-by-side: Speaker, and Side-by-Side: Gallery while sharing content. Custom Gallery view orders are now supported for use by panelists, but cannot be deployed to attendees. Webinar attendees can no longer control their view of the webinar, giving the host and co-host(s) exclusive control.
+Persistent non-verbal feedback 
+Non-verbal feedback, which is now included in meeting reactions, will return to the previous behavior, in which they are persistent until the attendee or host removes them. This includes the Yes, No, Slower, and Faster options.
+Enhancement to alternative host feature 
+If the original host joins after the alternative host, the original host will always regain control of the meeting and become host. In addition, the alternative host will change roles. If the co-host feature is enabled for the meeting, the alternative host will become a co-host. If the co-host feature is disabled, the alternative host becomes a normal participant.
+New and enhanced features
+ General features
+ Block or allow only participants from specific countries/regions 
+When scheduling meetings, the option “Approve or deny entry to users from certain regions and countries” will be available under Advanced Options. Host can either allow only participants from specific countries/regions to join, or block all participants from specific countries/regions.
+ Enhancements to Outlook calendar integration
+If MAPI is enabled, deleted meetings on the client and web will also delete the associated Outlook calendar event, as long as the event was not a web-scheduled recurring or PMI meeting. For On-Premise users, MAPI allows meeting change and deletion syncing.
+ View synced contacts in sub-folders 
+If users set up contacts integration and their contacts are organized into sub-folder in the third-party service (Outlook, Exchange, or Google), they can view those sub-folders in the contacts directory.
+ Rotate camera
+Users on the desktop client for macOS can now rotate their camera video feed 90°. This can be done multiple times to completely flip the video, allowing for inverted cameras configurations.
+ Additional MSI/GPO options 
+Require new SSO login upon client start - DisableKeepSignedInWithSSO
+Disabled by default, this option will prevent the client from utilizing the last SSO session info, requiring a fresh login for every re-opening of the client.
+Require new Google login upon client start - DisableKeepSignedInWithGoogle
+Disabled by default, this option will prevent the client from utilizing the last Google session info, requiring a fresh login for every re-opening of the client.
+Require new SSO login upon client start - DisableKeepSignedInWithFacebook
+Disabled by default, this option will prevent the client from utilizing the last Facebook session info, requiring a fresh login for every re-opening of the client.
+Set audio signal processing for Windows audio devices - SetAudioSignalProcessType
+Default value is Auto (0), but can also be set to Off (1)(raw audio mode) or On (2)(Windows default signal processing).
+Audio noise suppression - SetSuppressBackgroundNoiseLevel
+Default value is Auto (0), but can also be set to Low (1), Medium (2), or High (3). The High option requires an audio enhancement package (included in the MSI), and if not present,- the client will revert to Auto.
+ Meeting/webinar features
+ Share and play video files directly into meeting
+The Video option under Advanced share options will allow you to choose a video file, which will be opened by Zoom and played in the meeting as shared content. Host has typical video player controls (pause/ play, volume control, full screen, video length/elapsed time), which are not seen by other participants during share. MP4 and MOV files are supported, and max video resolution is 1080p.
+ Blurred background 
+Users can now choose to blur their background rather than selecting a specific virtual background, providing added privacy when a branded background is unavailable or unnecessary.
+ Share mono or stereo sound 
+When sharing content and wanting to share computer sound as well, users can select between mono or stereo audio. Only the user sharing their audio will need to be utilizing this client version or higher.
+Meeting features
+Meeting reactions for End-to-End Encrypted meetings 
+Meeting reactions can now be utilized in E2EE meetings.
+1:1 private chat for End-to-End Encrypted meetings 
+1:1 private chats can now be utilized in E2EE meetings, allowing for messages to all participants and private messages between 2 participants.
+ Phone features 
+ SMS for international phone numbers 
+Users can send/receive SMS for certain countries/regions. Messages sent to international telephone numbers will be metered according to the international messaging rate table. This feature needs to be enabled by an admin.
+ Support for SMS and MMS messages in a single message bubble
+Text (SMS) and images (MMS) can be shown in a single message bubble. Previously, text and images had to be in separate message bubbles.
+ Add contacts without specifying an email address 
+Users can add phone contacts by specifying a name and phone number. Previously, users had to use calendar integration to add contacts without an email address.
+ Additional ringtone 
+Users can set their ringtone to a beeping sound.
+ Voicemail notifications 
+Users will see a notification when they receive a new voicemail.
+ Group call pickup
+Account owners and admins can use the web portal to create call pickup groups and add phone users as members. All groups members will see call notifications whenever there’s an inbound call to a member. This feature is also supported on certain Yealink devices. This feature needs to be enabled by Zoom.
+Chat features
+Back to previous chat 
+The ability to return up to the previous chat channel or contact, as well as go forward. This allows you to respond to an urgent request or message, then quickly return to the channel you were previously working in without needing to search for it among others.
+Request contact connections directly from chat channel 
+When creating a new channel or adding contacts to a channel, a contact request will be automatically sent if the associated email is not already an existing contact. Upon accepting the request, that contact will automatically be added to the channel. These pending requests can also be removed, and the requester will be notified when the request has been accepted.
+
+Resolved Issues
+ Security enhancements
+
+ Blocking or warning of unencrypted traffic 
+All unencrypted Zoom traffic will be blocked from connecting to meetings or webinars. Other external unencrypted traffic, such as phone dial-in and RTMP streaming, will be allowed, but warn all participants that the meeting is not entirely encrypted due to unencrypted end-points.
+New and enhanced features
+General features
+Additional MSI/GPO options
+Do Not Disturb when sharing - EnableDoNotDisturbInSharing
+Enabled by default, admins can deploy the client with more control over the Silence system notifications when sharing desktop desktop client setting, which silences Zoom notifications and sets your Zoom status to Do Not Disturb.
+Enforce internal meeting authentication - SetDevicePolicyToken
+Account admins can deploy a more nuanced authentication and restricted account profile, forcing their users to be authenticated for internal meetings, while allowing users to join external meetings with the security settings put in place by the external account.
+ Meeting features
+ Host can admit participants from the Waiting Room while within a Breakout Room 
+Host is notified of participants in the Waiting Room, even while currently in a Breakout Room. The host can admit each participant one at a time, or all at once. If pre-assignments for breakout rooms are active, participants will be asked to join their pre-assigned breakout rooms. Otherwise, the host can assign participants directly to the breakout room of their choosing.
+Resolved Issues
+Resolved an issue with green tint on users videos seen by other participants
+ Enhanced cloud contact integration for chat/call features 
+Contacts imported through the contact integration can now be easily added as a Zoom contact. Once approved as a Zoom contact, you will have the ability to call or meet with them and see their Zoom status.
+Meeting/webinar features
+Enhanced nonverbal feedback and reactions 
+Nonverbal feedback options are moved to the Reactions button, and all reactions will be shown in the corner of the participants’ video. The host will see each participant’s reactions in the participant list, as well as the aggregate numbers of each reaction at the bottom of the list.
+Raise hand for host and co-host
+Hosts and co-hosts can utilize the raise hand feature along with meeting participants and webinar attendees.
+Poll reports available during live session 
+The meeting or webinar host will now have the option to download the full poll results when the poll has ended during the live session, rather than waiting until the meeting or webinar has ended. This will launch their browser and begin the download of the CSV poll report.
+ Meeting features
+ Improved grouping of security options when scheduling 
+The “Only authenticated users can join” option is now located in the Security section of the scheduling window, grouping it with Passcode and Waiting Room options to allow for easier selection and use of security features.
+Phone features
+Support for text messaging (SMS and MMS)
+Users with Zoom Phone Pro licenses can use their assigned direct phone numbers to send or receive text messages (SMS and MMS). See our text messaging FAQ for more information.
+Enhancements for call queues with call monitoring 
+If call monitoring is enabled for a call queue, members and supervisors can easily monitor their queues and use call monitoring features.
+Call end chime
+Users will hear a chime and see a notification when a call ends abruptly, typically from poor network connection or the other caller ending the call.
+Launch an external app or a URL for incoming calls
+Users can configure Zoom Phone to launch a specific app or URL when receiving a call. They can pass additional parameters to the app or website with % arguments; for example, name and caller ID.
+Resolved Issues
+ 
+ Change to default behavior of desktop notifications for upcoming meetings
+New users will have this setting enabled by default, reminding them of upcoming meetings through a desktop notification. Existing users will not be affected, keeping this setting as it currently is on their profile. This can be enabled through the Settings page in the Zoom web portal, or in the desktop client’s general settings.
+New and enhanced features
+General features
+Partially encrypted meeting warning
+Unencrypted connections, such as audio through phone dial-in, unencrypted SIP/H.323 devices, or streaming via RTMP, will alert the host and other attendees that some aspects of the meeting are not fully encrypted due to unencrypted end-points.
+Additional MSI/GPO option 
+ Disable video filters - DisableVideoFilters
+ Meeting features
+ Enhanced co-host privileges over Breakout Rooms
+Co-hosts have the same breakout room controls as the meeting host, such as starting or ending breakout rooms, assigning participants, etc.
+ Move participants to main session from breakout room
+Hosts and co-hosts have the option to assign a participant back to the main session, rather than ending all breakout sessions.
+Phone features
+Enhanced notification for unknown emergency address 
+For users that have enabled nomadic emergency services, we enhanced the visibility of the pop-up notification that prompts users to confirm or update their emergency address when they are in an unknown location. A user's current emergency address is also now persistently shown in the Phone tab in the client settings.
+Resolved Issues
+ Resolved issue for subset of users regarding local chat transcripts saving in the incorrect location
+ Security enhancements
+
+ Non-video meeting interface will appear the same as a video meeting with video off
+Meetings scheduled with video off will now just show profile pictures or names, rather than the plain screen with meeting info and options.
+New and enhanced features
+Meeting/webinar features
+
+ Share multiple programs at once 
+Users can select multiple desktop programs at once for sharing, instead of sharing their entire desktop. Other programs and unoccupied areas in the desktop will not be visible to the viewer. The sharer will always know which applications they are sharing by an extensible green border. Only the user employing this feature will need to be on version 5.4.3, viewers can be connected with older versions.
+Meeting features
+Enhanced in-meeting user abuse reporting 
+Simplified process for meeting hosts and attendees to report abuse to Zoom.
+Suspend participant activity 
+New option in the Security panel to immediately suspend all participant activities, which will mute all video and audio, stop screen sharing, end all breakout rooms, and pause recording.
+ Chat features
+ Pin chat messages 
+Users can pin a message in a channel, which is displayed at the top of the channel. Pins can be removed, replaced, or hidden. A log of pinned messages is accessible in the channel options panel.
+Resolved Issues
+Resolved issue for a subset of users regarding scheduling an alternative host while chat and contacts are disabled 
+Resolved issue for a subset of users regarding Egnyte flagging Zoom files as malware
+Sync sub-folders in cloud contacts
+When syncing contacts from Office 365, sub-folders will now be synced in addition to the main contacts folder.
+Enhanced login for Zoom for Government users 
+When downloading the desktop client from the Zoom for Government web portal, the switcher dropdown will be immediately available.
+ Meeting/webinar features
+
+Disable Windows audio signal processing 
+Allows the user to control how audio signal is processed: by Windows drivers (On) or captured/played by Zoom in raw mode (Off). This may improve audio and requires an audio device which supports raw mode.
+Virtual Background support for additional CPUs
+Virtual Backgrounds are now supported for i3 5th-gen and above, i5/i7/i9 3rd-gen and above, all including Y-series. These CPUs will support Virtual Backgrounds at 15fps and 360p.
+Scheduling with custom Join Before Host time limit 
+Users can schedule meetings with Join Before Host set to allow participants to join 5, 10, or 15 minutes before the scheduled start time. Can only be used when the meeting ID is set to generate automatically. 
+ Meeting features
+
+End-to-end (E2E) encryption for meetings 
+End-to-end (E2E) Encryption for meetings is now available in technical preview. Account owners and admins can enable end to end encryption for meetings, providing additional protection when needed. Enabling end-to-end (E2E) encryption for meetings requires all meeting participants to join from the Zoom desktop client, mobile app, or Zoom Rooms. Users will not be able to join by telephone, SIP/H.323 devices, on-premise configurations, or Lync/Skype clients, as these endpoints cannot be encrypted end-to-end. Zoom web client and third-party clients leveraging the Zoom SDK are also not supported at launch. Enabling this setting also disables the following features: join before host, cloud recording, streaming, live transcription, Breakout Rooms, polling, and meeting reactions. This setting is enabled in the Zoom web portal at the account, group, and user level and can be locked at the account or group level. 
+Additional share options with Proximity Share to Zoom Rooms 
+Proximity share now supports sharing specific apps, share computer audio, and optimize for full screen video.
+Change ringtone for meeting invites and phone calls 
+Users can change their ringtone from a predetermined list. The ringtone applies to incoming meeting invites and phone calls.
+Improved pre-assigned Breakout Rooms behaviour 
+Pre-assigned attendees joining after the Breakout Rooms have been started will now automatically be assigned to their Breakout Room.
+ Chat features
+
+Search starred messages 
+Users can search through their starred messages, or filter a search to only starred messages.
+File size restrictions 
+Account admins can limit the file size allowed in IM chat.
+ Phone features
+ Bootstrap mode for nomadic emergency services 
+If bootstrap mode is enabled by an account owner or admin, phone users can report their current locations as company locations and/or report underlying network data for existing company locations. User-reported location and network data must be approved by administrators before it becomes actively part of defined company locations. These operations will send email notifications to admins (at most one email per day).
+ Call notifications for busy call queue members 
+If enabled, call queue members can receive call queue calls when they are busy on a call.
+ Opt out of specific call queues 
+Users who are members of multiple call queues can opt out of specific call queues to disable call notifications from those call queues.
+Resolved Issues
+Resolved issue with inaccurate Zoom Phone status 
+Resolved issue with status sync between Zoom and Outlook 
+Resolved issue for a subset of users regarding downloading files to external drives
+AutoUpdate disabled by default for MSI/GPO installations 
+The AutoUpdate flag is now set to “false” by default.
+New and enhanced features
+ General features
+ Additional MSI/GPO options 
+ Record and send a voice message - ShowVoiceMessageButton
+ Webinar features
+ Hyperlink support for Q&A 
+Links sent in Q&A responses are now clickable by attendees.
+ Q&A indicates other panelist is responding to question 
+Questions will now indicate when another panelist is currently typing a response, ensuring you are not working on the same question.
+ Dismissed Q&A questions hidden from attendees 
+Questions dismissed by the host or panelists are now hidden from attendees view, avoiding unnecessary confusion.
+Resolved Issues
+
+General features
+Calendar Integration sync improvement 
+Deleting a meeting in the desktop client will now delete the calendar event on the synced calendar, if write permission is given.
+Enhanced Edit Country interface when scheduling 
+Adjusting the dial-in countries included in a meeting’s invite when scheduling is now enhanced to make adding, removing and reordering countries easier. 
+Enhanced integration with Outlook client 
+The Zoom desktop client integration with the Outlook client now provides the option to sync your Zoom status and profile picture to Outlook. 
+Studio Effects 
+Users can now apply eyebrows, mustache and beard, and lip color filters as part of their video appearance. This feature is currently in beta.
+Enhanced scheduling with default settings
+Scheduling a new meeting will always check the user’s web settings and use those as the default. Any changes from the default will be saved for that meeting only. 
+Additional MSI/GPO Options 
+ Spotlight Self when speaking - zPolicy_EnableSpotlightSelf
+ Display up to 49 participants per screen in Gallery View - zPolicy_Enable49Video
+ Remind me () minutes before my upcoming meetings - zPolicy_EnableRemindMeetingTime
+ Default video rendering method 
+zPolicy_VideoRenderMethod
+Meeting/webinar features
+
+ Roll-up Closed Captioning
+Closed captioning will now roll up as new captions are added. Users can also move through captioning by dragging the text.
+ Virtual Background not compatible explanation 
+When you are unable to use the virtual background feature, the desktop client will provide clarification, for example, the i7-5500U processor is not currently compatible with this feature.
+Meeting features
+Self-select Breakout Room 
+The host can now create breakout rooms with the option for participants to self-select which breakout room they would like to join. If enabled, participants can move freely between breakout rooms, without needing the host’s help. Both the meeting host and participants need to be on Client 5.3.0 or later to self-select Breakout Rooms. 
+Share files with Microsoft SharePoint
+Attendees can now share files from SharePoint directly through in-meeting chat.
+ Chat features
+ Hide chat bots in IM list
+Users can hide chat bots deployed by their admin they do not have use for.
+ Right-click menu for links in IM chat
+Right-clicking a link will now display a menu, providing options to copy or open the link.
+ Improved image preview and image viewer
+Images sent in IM chat integrate better with sent text, and images will open within the Zoom desktop client’s new image viewer.
+ Enhanced Link Preview
+Zoom meeting links will now show more details, such as meeting name, ID, start time, Join button, and meeting duration when done.
+ Enhanced Search
+Desktop users can filter by Order, Sent by, and date filters for file search. Mobile users can filter by Order for file search. All image search results will display as thumbnail previews. Channel and contact results will also be split into their own categories. Users can also clear the list of recent searches.
+ Mark as Unread for images and files 
+Transferred files and images can also be marked as unread. 
+Resolved Issues
+Resolved issue with Breakout rooms not following main session’s settings/restrictions 
+Resolved issue with some webinar chats not being saved
+Resolved an issue where some users joined a meeting with the previously signed-in account’s profile picture
+Resolved an issue with keyboard focus shifting away from CC input when host performs certain actions
+Resolved issue with chat messages being copyable in HIPAA compliant meetings
+Resolved issue with voicemails not able to be retrieved on desktop client
+Resolved issue when updating client 5.0 via MSI, but Zoom is defaulting to previous version 
+Resolved issue with View More Settings option in client not routing to customer’s vanity page, if logged in via SSO 
+Resolved issue with untrusted security warnings not providing more details
+ Disable telephone options for webinar attendees 
+We have temporarily disabled the telephone options for webinar attendees and plan to re-enable them in the next few weeks. In the meantime, attendees may connect to webinar audio through the Zoom desktop client, web client, or mobile app. Webinar hosts and panelists can still join by telephone, as well as through computer audio.
+Resolved Issues
+
+ Meeting/webinar features
+ Custom languages for language interpretation 
+Custom languages are now supported, in addition to the default languages provided. Custom languages must be configured on the web portal by the host. Interpreters and participants accessing the custom languages will need to be on client 5.2.1 or later to use custom languages.
+ High Fidelity Audio mode 
+This option in Advanced Audio enhances “Original Audio” mode, allowing for disabling echo cancellation & post-processing, while raising audio codec quality to 48Khz, 96Kbps mono/192kbps stereo for professional audio transmission in music education and performance applications. Professional audio interface, microphone, and headphones required.
+ Custom gallery view organization 
+Host and co-host can now re-order the gallery view to suit their needs, and choose whether to deploy this view to participants, or allow participants to create their own custom views. Simply click and drag videos to the position you want them in gallery view, and this layout will remain in place until released.
+ Multi-pin and multi-spotlight 
+With host permission, users will now be able to pin up to 9 participants on their end. The host can also spotlight up to 9 participants for everyone in the meeting.
+Webinar features
+Phone audio options for webinar attendees 
+Webinar attendees can now access Phone Call and Call Me options for audio, in addition to the Computer Audio option. An admin must enable the premium Call-Out feature on the web portal, which requires the Audio Conferencing add-on.
+Resolved Issues
+ 
+ General features
+ Allow Host to unmute participants using pre-approved consent
+The host can schedule meetings and webinars with Request permission to Unmute Participants, which allows participants to pre-approve the host’s ability to unmute them as needed when joining a meeting. This pre-approval will remain in place for all meetings with this host, and can be revoked by the participant at any time.
+ Additional MSI Option
+Admins will now be able to manage the following features via MSI:
+Disable Automatically enter full screen when viewing shared content
+IT Admins can now disable this setting on the client via MSI.
+ Chat features
+ Admin control of who (internal/external) can add more members to a channel
+For security and privacy purposes, channel admins can control if external contacts can add new members to channels and group chats. Channel can be configured to allow either all channel members or only fellow organization members to add new members to channels.
+Phone features
+Highlight text to dial
+Users can highlight a phone number, right-click, then select an option to dial the highlighted number.
+Inbound call notification for internal safety response team
+Members of the internal safety response team will see a special inbound call notification when a phone user calls an emergency number (PSAP). The notification allows members to answer calls that are still dialing, or listen in on calls that were answered by the PSAP.
+Resolved Issues
+ Call queue continues routing calls to users after sign-out
+ Meeting and webinar passwords now called Passcodes
+Meeting and webinar passwords will now be called Passcodes to prevent confusion with your individual user password, which should never be shared. 
+ Show annotator’s name by default
+The Show Names of Annotators option while sharing content is now on by default. 
+ Removed appended space after @mentions
+When users enter a chat @mention, a space is no longer automatically appended after the @mention. Spaces are still appended when users enter multiple subsequent @mentions.
+New and enhanced features
+Meeting/webinar features
+Video filters
+Users can apply video filters to alter the look of their video with color grading, foreground and frame filters.
+Share PowerPoint as Virtual Background in Beta
+Users can select a PowerPoint file to use as their virtual background and move through the slides with the left and right arrows. This option is under Share Screen in the advanced options. It is currently a beta feature. 
+Adjust Touch Up My Appearance
+Users can adjust the skin smoothness applied with the Touch Up My Appearance feature. 
+Adjust video brightness
+Users can choose to adjust the brightness of their video automatically or manually with a slider in their video settings. This feature is useful in low-light environments.
+Improved background noise suppression
+Users can adjust the background noise suppression applied, choosing to enable Low, Medium, High, or Automatic background noise suppression. 
+Settings for hardware acceleration for screen sharing and whiteboard
+Users can now choose to enable hardware acceleration for screen sharing or whiteboard individually. 
+Support for Virtual Background on additional processors
+Virtual Background is now supported on Intel i3 quad core generation 8 or higher.
+Support for gallery view for 49 participants on additional processors
+AMD Ryzen 5 series now supports gallery view with 49 participants when only a single monitor is being used. AMD Ryzen 7 and 9 series and Intel i5 4-core 4th generation or higher now supports gallery view with 49 participants on single or dual monitors. 
+ Meeting features
+ Share files with Microsoft SharePoint
+Users can now share files from SharePoint directly through IM chat.
+ Improved Waiting Room notifications
+Host now receives more notifications about attendees entering the waiting room, including during screen share and when Zoom is minimized/hidden. 
+ Additional meeting reactions
+In addition to the clapping and thumbs up reactions, meeting participants can now react with a heart, surprised face, laughing face, or party emoji. Those receiving the reactions will also need to have the latest version of the Zoom client to see them. 
+Chat features
+
+ Invite members by channel
+Channel and group chat admins can add members by selecting an existing channel and inviting all of those members to a their channel or group chat.
+ Record and send a voice message 
+Users can now record and send a voice message in a one-on-one chat or a channel. 
+ Manage channel posting permissions
+Channel and group chat admins can manage the posting permissions to choose who can send messages in their channel or group chat. They can choose to select everyone, admin only, or admin plus specific users.
+ Microsoft SharePoint File Storage Integration 
+Users can now upload or download files from Microsoft SharePoint.
+ Mute channel notifications 
+Users can now mute channel or group chat notifications, which will remove all push notifications as well as the red icon next to the channel or group chat name, on the Chat tab in the header of their client, and on the Zoom app on their dock. Users can hover over the channel name and click the downward arrow to find this setting.
+ Support first name only for @mentions 
+When users press backspace on an @mention to delete the user’s last name, it will continue to support the @mention functionality.
+Phone features
+
+ Transfer call to any meeting 
+Users can transfer the active call to any meeting or enter a meeting URL. 
+ Hot key support 
+Users can use keyboard shortcuts to control Zoom Phone, such as accept/decline call, end call, mute/unmute, and hold call. 
+ View transcriptions of call recordings 
+Users can view the transcript of their ad-hoc or automatic call recordings while playing back the recording.
+ Combined search results for extension and direct numbers
+Search results in Zoom Phone combine each phone user’s extension and direct numbers into a single search result. Previously, there were separate search results for each number.
+ Icons for call quality and encryption 
+While in a call, users will see icons to indicate call quality and encryption.
+General features
+Security section when scheduling a meeting 
+To allow easier access, Passcode and Waiting Room settings are displayed under the Security section when scheduling a new meeting. 
+Screen reader alerts 
+Users can now enable screen reader alerts to choose which notifications they would like their screen reader to announce.
+Improved video and content sharing 
+Upgrades to video and content sharing to improve video quality, decrease bandwidth and CPU usage, and improve text clarity
+Save a Multi-page Whiteboard 
+Meeting attendees can save a multi-page whiteboard as a single PDF or multiple PNGs.
+Sync Zoom presence to Outlook 
+A user’s presence in Zoom can be synced to Outlook, sharing whether a user is in a meeting, busy, or available. The Outlook icons will be used for the status, but the wording will match what is displayed in Zoom. Users can manually override their status in Outlook.
+Set Zoom as the default communication option in Outlook
+Users can set Zoom as their default communication option in Outlook, allowing users to meet, chat, or call their contacts through Zoom with one-click.
+Resolved Issues
+ Fixed an issue where the incorrect date was showing when scheduling new meetings for a subset of users 
+ Fixed an issue where users received multiple notifications simultaneously of audio changes 
+ Fixed an issue where Zoom windows were shared when the user checked the option Optimize Share for Full Screen Video Clip 
+
+ Uploaded Virtual Background will not be shared across users on the same device
+Uploaded Virtual Backgrounds will now be specific to the user who is signed in. If a user uploads virtual backgrounds, they will not be visible in Zoom client settings for other users who sign in on the same device.
+New and enhanced features
+General features
+Italian and Vietnamese language support
+The Zoom client now supports Italian and Vietnamese. By default, Zoom will match the operating system’s language if supported and users can manually select a language of their choice.
+
+ Meeting/webinar features
+ Support for account managed Virtual Backgrounds
+Account owners and admins can now add virtual backgrounds to the Zoom web portal for all users on their account. If the virtual background setting is locked, users will only have access to the admin uploaded virtual backgrounds and the Zoom default backgrounds and will not be able to add their own from the Zoom client when logged in to that Zoom account. This setting is available at the account and group level and requires Zoom client version 5.1.1.
+Chat features
+External Contact Invitation Privacy Disclosure
+When users send or accept an external contact invitation, they will be shown a privacy disclosure explaining that their profile information and, depending on the account IM Settings, their presence status will be visible to the external contact upon successful connection.
+Edit the most recent message by pressing the Up key
+When the Zoom chat window is in focus, users can edit the most recent chat message by pressing the Up key.
+Push notifications for file downloads
+Users can now receive push notifications when a share file downloads successfully, or if the file fails to download.
+Resolved Issues
+
+ Ask all to unmute for meetings of 200 participants or fewer
+The meeting host can now ask all participants to unmute for meetings with 200 participants or fewer. This option is available in the host controls by clicking Participants, then More. This feature requires the desktop client 5.1.0 for the participants you are unmuting, as well as the host. If participants are on the Zoom client 5.0.5 or earlier, they will stay muted and not be prompted to unmute.
+New and enhanced features
+Webinar features
+Option to delete questions
+The host or panelists can now choose to delete questions submitted through the Q&A during a webinar.
+ Phone features
+ Personal locations for nomadic emergency services
+Users can define locations and specify an emergency address. The Zoom client will automatically save the IP address or wireless access point identifiers for the location. When a phone user places an emergency call from a defined location, the associated emergency address will be sent to emergency responders.
+ Reconnect option
+Users will see a notification to manually reconnect to the Zoom Phone server if they disconnect.
+ Enhancements to hiding outbound caller ID
+Users can also dial 67 before entering a phone number to hide their outbound caller ID. If users hide their caller ID, a disclaimer will warn them that it will not be effective in all countries or regions.
+ Display names for phone numbers
+When selecting their outbound caller ID numbers, users can see display names set in the web portal. This makes it easier for users to identify numbers. The display name does not affect your caller ID.
+Resolved issues
+ Re-enable GIPHY
+GIPHY will be re-enabled for Zoom chat. 
+New and enhanced features
+ Chat features
+ Improved transparency of channel privacy controls
+When adding new channel members in the add members modal, users can now easily view their channel privacy controls which increases transparency around which type of users can be added and what message history will be available to the new users upon joining. Channel admins can even edit these privacy controls while adding the new user at the same time, thus enhancing privacy awareness for all of our customers. 
+ Enabling public channel admins and members to add external users
+Channel admins and members can now add external users into their public channels. In order to do so, the channel admin must enable this privacy setting, which is available when creating or editing a channel or adding a member. For the sake of security, this new privacy option to add external users will be turned off by default for both private and public channels and admins must opt into it. 
+Resolved Issues
+
+Removing old and adding new MSI switches and registry keys upon updating
+When updating Zoom to the latest version of the IT admin package (MSI), all MSI switches and registry keys will be removed and readded according to the keys designated in the command line.
+Resolved issues
+ 
+ New default screen sharing settings for accounts with single Pro licenses
+Accounts with single Pro licenses will now have the screen sharing setting Who can share? defaulted to Host Only. The meeting host will be able to change this setting in their meeting settings or during the meeting in progress, from the Security icon.
+ Language Interpretation flag icon will be replaced by language abbreviation
+The icon next to the interpreted language will now list the language abbreviation, instead of a flag.
+ Require consent if the host mutes and then unmutes a participant
+If the host mutes and then unmutes a participant individually, the participant will now receive a prompt, asking them to consent to be unmuted.
+ Remove Unmute All option
+The option to unmute all participants at once has been removed since participants now always have to consent when the host unmutes them. By default, participants can unmute themselves. The host can now enable or disable the setting to allow participants to unmute themselves from the Security icon, which can also be found in the Participants panel.
+New and enhanced features
+Meeting features
+Access meeting information when screensharing
+Participants can now access the meeting information, such as meeting ID and password, when sharing their screen. This information can be accessed from the toolbar, under the More option.
+New ringtone for Waiting Room and when participants join or leave a meeting
+They will hear a new chime when a participant has entered the Waiting Room or when a participant joins or leaves the meeting if the meeting host has the setting Play sound when participants join or leave enabled.
+Resolved issues
+ Fixed an issue where Virtual Background did not work with some AMD processors
+
+ Enhanced privacy design in contact details and user profile page
+Personal information, such as email address, personal meeting ID and phone number, will be partially masked with asterisks (). Full details will only be shown when the user explicitly clicks on the “show” option.
+Resolved issues
+Support for setting to disable Personal Meeting ID (PMI)
+Client version 5.0.1 will support the web setting to disable the use of Personal Meeting ID (PMI). This web setting will be released on May 3, 2020. 
+Resolved issues
+
+ Prevent private chatting with channel members outside of Zoom account or organization
+Users will no longer be able to privately chat with other members of the same channel if they are not on the same Zoom account or organization. To continue chatting with contacts outside of their Zoom account, they can add them as external contacts.
+ Copied URL will not include password if the web setting Embed password in meeting link for one-click join is disabled
+If the host has the web setting Embed password in meeting link for one-click join disabled in the Zoom web portal, the Zoom client will no longer include the password in the URL when inviting new participants. 
+New and enhanced features
+General features
+AES 256-bit GCM encryption
+Zoom is upgrading to the AES 256-bit GCM encryption standard, which offers increased protection of your meeting data in transit and resistance against tampering. This version of the Zoom client will support GCM encryption when it is automatically enabled for all accounts on May 30. 
+ Meeting features
+ Report a user during a meeting
+The meeting host can now report a user during a meeting by clicking on the Security icon, then Report. This feature will generate a report which will be sent to the Zoom Trust and Safety team to evaluate any misuse of the platform and block a user if necessary. 
+ Additional feedback options at the end of a meeting
+Users will now have the ability to provide additional feedback if the setting Post meeting feedback survey is enabled. This feedback can also be viewed in Dashboard and can be downloaded as a spreadsheet. This setting was previously named Display end of meeting feedback survey.
+ Enhancements to meeting end/leave flow
+The host will now be required to assign a new host when leaving the meeting. Additionally, the pop-up message asking if the host would like to leave or end the meeting will now be displayed by the Leave button. 
+ Show the connected data center
+Users can see which data center they are connected to by clicking on by clicking on the info icon at the top left of the client window.
+ Select data center regions when scheduling a meeting
+Users can now select which data center regions they would like their in meeting traffic to use when scheduling a meeting.
+Chat features
+Indication of an external user
+Users will have the label “External” next to their name if they are not part of your Zoom account. This label will be displayed in one on one messages. This label will also be displayed in the user’s profile details when you hover over their profile picture and in the channel members list. 
+ Phone features
+ Improvements to encryption
+Zoom supports secure voice calls across all supported SIP devices, desktop, and mobile clients. Zoom Phone supports standards-based encryption using SIP over TLS 1.2 Advanced Encryption Standard (AES) 256-bit algorithm for calls and during phone provisioning sessions. In addition, call media is transported and protected by SRTP with AES-256 bit algorithm for Zoom desktop and mobile clients, and with AES-128 bit algorithm for devices.
+Resolved issues 
+Resolved an issue where a subset of meetings were deleted when an invitee with scheduling privilege declined the invitation
+Re-enable clickable links in meeting chat
+Users will be able to send clickable links through the in-meeting chat. The link must include http or https to be clickable. 
+Resolved issues
+
+ Re-enable third-party file sharing
+Users on the Zoom desktop client 4.6.11 will be able to share files from third-party platforms, including OneDrive, Google Drive and Box if configured for their Zoom account. 
+New and enhanced features
+Support for meeting password requirements
+When scheduling a meeting, users on Zoom client 4.6.11 will be required to set a password that meets the requirements set by their account owner or admin set in the Zoom web portal. 
+Show message preview
+Users can enable or disable a setting to show a message preview for chat messages. 
+Resolved issues
+ Resolved an issue where the complete version number was not displayed
+ 
+ Remove the meeting ID from the title bar
+The meeting ID will no longer be displayed in the title bar of the Zoom meeting window. The meeting ID can be found by clicking on the info icon at the top left of the client window or by clicking Participants, then Invite. 
+ Invite button under Participants
+The button to invite others to join your Zoom meeting is now available at the bottom of the Participants panel.
+ Local file transfer in meeting chat
+The feature file transfer in meeting chat has been re-enabled. Third-party file transfers and sharing clickable links are still disabled.
+ Automatic prompt to share reports and logs if Zoom client crashes
+Users will be asked if they would like to share reports and logs with Zoom if their Zoom client crashes. This feature can be disabled by admins. 
+New and enhanced features
+Security icon in host’s meeting controls
+The meeting host will now have a Security icon in their meeting controls, which combines all of Zoom’s existing in-meeting security controls into one place. This includes locking the meeting, enabling Waiting Room, and more. Users can also now enable Waiting Room in a meeting, even if the feature was turned off before the start of the meeting.
+Resolved issues
+ Fixed CVE-2020-11443, thanks to the Lockheed Martin Red Team
+ Resolved an issue where a malicious party could use UNC links to leak a user’s hashed password
+ Resolved an issue where some users could access chat in a webinar when chat was disabled

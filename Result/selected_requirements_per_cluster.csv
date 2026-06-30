@@ -1,0 +1,73 @@
+cluster_name,selected_requirement,uniqueness,quality
+Account Authentication Essentials,The system shall allow users to configure attendees without requiring them to be signed in.,0.43537498,8
+Adaptive Lowlight Brightness Settings,The system shall allow users to adjust the darkness intensity of the user interface using a slider in the settings menu.,0.20708835,9
+Aligned Local Recording Tracks,The software system shall provide users with the capability to rename audio tracks simultaneously.,0.11559749,9
+Alternative Feedback Solutions,"The native Zoom survey tools shall enable users to submit post-meeting surveys, requiring version 5.8.3 or higher.",0.33882278,8
+Alternative Hosts and Original Links,The software system shall enable users to assign scheduling privileges to co-hosts in both sub-accounts and the master account.,0.34796995,9
+Audio Control Options,"The software system shall enable users to join audio communication, contingent upon the host's permission.",0.39768285,9
+Behind the Scenes Reactions,The system shall provide users the capability to request access to the backstage area anonymously.,0.40381533,9
+Channel Search and Filtering,The software system shall provide users the capability to return chat messages as thumbnail previews.,0.5206082,8
+Cloud File Storage in SharePoint,The system shall provide users with the capability to receive notifications upon the successful download of shared files.,0.38273895,9
+Collaborative Breakout Room Assignments,The software system shall enable users to rename the Breakout Room assignments of meeting participants while in the waiting room.,0.35155678,9
+Collaborative Zoom Transcription Apps,The Zoom for Government application shall enable users to sign in as different user types directly within the Zoom desktop client.,0.41326725,9
+Consent for Unmuting Participants,The desktop client version 5.1.0 shall enable users to disable meetings when the host mutes and subsequently unmutes a participant.,0.21065998,8
+Crash Log Pairing Insights,"The Zoom desktop client shall provide users with the capability to access logs, provided that this feature is configured for their Zoom account.",0.32709855,8
+Custom Gallery View Order,The software system shall enable users to reorder non-video participants according to their preferences.,0.39392054,9
+Deep Linking for Media,The mobile application shall enable users to share GIPHY content with a size limit of 30 MB.,0.4373091,9
+Default Notification Settings Management,The software system shall enable users to disable desktop notifications while in a meeting.,0.37825978,10
+Dialing Phone Numbers,The software system shall enable users to right-click on outbound caller ID numbers while engaged in a call.,0.38158554,9
+Direct Text Contact Results,The system shall enable users to add a URL through the contact integration feature in Zoom Phone.,0.41981757,9
+Dynamic GIF Viewer Actions,The system shall provide users with the capability to select files prior to sending a GIF.,0.36384535,8
+Egnyte Malware Access Flagging,"The system shall provide users with the capability to disable Zoom files, which shall be disabled by default.",0.109660566,8
+Emergency Location Notification,The client shall enable users to manage inbound call notifications directly within the client interface.,0.42307442,9
+Emoji Matching Challenge,The software system shall enable users to select chat messages and apply reactions.,0.34704077,9
+Empowered Call Transfer Experience,The Windows desktop client shall enable users to launch an external application from in-call controls without requiring the main Zoom client window to be opened.,0.39285046,9
+Encrypted Message Bot Quotes,"The system shall automatically filter channel search results based on the user's current workspace, role, or project context, reducing search noise.",0.2918746,9
+End-to-End Encryption Overview,The patient portal shall provide users with the capability to disable the camera when necessary.,0.5585457,9
+Event ID Bar Calendar,"The desktop client shall enable users to remove Participants, provided that they have been granted write permission.",0.49739897,9
+Fresh SSO Login Requirements,The system shall enable users to configure the requirement for a fresh Single Sign-On (SSO) login at the account level.,0.41108364,8
+Full Toolbar Screen Sharing,The software system shall provide users with the capability to automatically pause the sharing toolbar when entering full screen mode.,0.36867118,9
+GMT Regional Data Scheduling,"The web portal shall automatically suggest or apply geo-blocking based on detected security risks, user behavior, or regional compliance alerts.",0.5030432,9
+Group Call Line Sharing,"The web portal shall provide users with the capability to take over call pickup groups, contingent upon authorization by an account owner and administrator.",0.46394414,8
+Group Chat Topics,The software system shall provide users with the capability to name up to 50 chats or channels.,0.42405683,9
+Guest Screen Sharing Restrictions,The software system shall enable users to apply meeting restrictions to specific users or groups.,0.28208506,9
+HIPAA-Compliant Local Recording,The software system shall provide users with the capability to resolve issues related to invalid local recording paths for audio devices.,0.3695293,8
+Immersive 89 Aspect Ratio,The software system shall enable users to resolve issues with 8:9 aspect ratio videos that do not function properly during an immersive view.,0.13226253,8
+Immersive Self-Spotlighting Menu,"The Immersive View shall enable users to pin themselves, contingent upon obtaining permission from the host.",0.20798874,8
+Incoming Call Sound Alerts,The software system shall enable users to schedule phone calls for the Waiting Room and shall notify when participants join or leave a meeting.,0.3366645,8
+Interactive Webinar Q&A Session,"The webinar shall provide users the capability to sort the Q&A section, with the default sorting order being chronological.",0.560804,8
+Join Before Time Limit,"The software system shall provide users the capability to schedule a meeting ID with the ""Join Before Host"" feature enabled, allowing participants to join the meeting 5, 10, or 15 minutes prior to the scheduled start time.",0.26051867,9
+Managing Imported Contacts in O365,The software system shall provide users with the capability to import participants from O365.,0.31911445,9
+Manual Closed Captioning Solutions,The software system shall provide users the capability to disable the display of closed captioning in the video window.,0.24270517,9
+Miscellaneous,The software system shall enable users to select a channel during end-to-end encrypted (E2EE) meetings.,0.5811256,8
+Missed Call Meeting,The system shall enable users to join missed meeting calls by dialing a designated phone number.,0.50926137,9
+Mono Audio Content Sharing,The software system shall enable users to provide participants with access to shared content.,0.17577475,8
+Nonverbal Feedback in Hosting,The software system shall provide users with the capability to disable meeting reactions for each participant in the participant list.,0.1250543,9
+Notification Preview Window,The system shall enable users to display Personal Notes when accessed directly through the system's push notification.,0.4814033,8
+Optimizing Hardware for Accelerated Sharing,The software system shall enable users to select videos individually.,0.4455183,9
+Organizing Email Contacts,The software system shall enable users to configure a phone number when adding or editing a synchronized cloud contact.,0.39023173,9
+Outbound Call Queue Management,The software system shall enable users to view call log entries while they are engaged in an active call.,0.31637377,9
+PTZ Camera Rotation Insights,The software system shall enable users to rotate images captured by external cameras.,0.35608345,9
+Password Authentication Requirements,The desktop client shall enable users to configure authentication settings in accordance with the requirements established by their account owner or administrator.,0.44279277,9
+Personal Contact Disclosure,The system shall enable users to initiate calls using their personal meeting ID from the Phone tab.,0.4039073,9
+Phone Volume Unmuting Issues,The Zoom application shall enable users to access the status of a specified subset of users.,0.23971862,8
+Polished Language Interpretation,The system shall allow the host to configure the operating system's language through the web portal.,0.39032453,9
+Profile Photo Visibility Control,The Zoom Chat system shall provide users with the capability to display participants' profile photos for the Show Video Message Button in the account-level web settings.,0.08650482,8
+Public Channel Privacy Concerns,The software system shall enable users to activate privacy controls when creating or editing a channel or adding a member.,0.40345,9
+Real-Time Preapproved App Notifier,The Active Apps Notifier shall enable users to receive notifications in real-time.,0.34130567,9
+Registry Key Updates for MSI Switches,The system shall enable users to manage the latest version of the IT admin package following an update.,0.079325855,8
+SAML Mapping for Display Names,The software system shall enable users to configure their gender pronouns upon joining a meeting.,0.44612974,9
+Shared Screen Focus Mode,The software system shall provide users the capability to select an MP4 video from the 'More' menu located on the toolbar.,0.48433012,9
+Simultaneous Joining Issues,The desktop client shall enable users to schedule a profile picture using a previously established vanity URL.,0.4886613,8
+Syncing Outlook with Zoom,The Zoom desktop client shall enable users to override the default communication option in MSI deployments.,0.2627654,8
+UNC Security Leak: Hashed Networks,The software system shall provide users with the capability to edit their hashed password links.,0.1226604,8
+Updated Chat History Button,The software system shall provide users with the ability to access 1-on-1 chats and shall allow quick access to the 10 most recent chats.,0.113657355,8
+Upgrading to 64-bit Version,"The desktop client shall provide users with the capability to prevent automatic upgrades of the 32-bit version, which shall be disabled by default.",0.15704376,8
+Uruguay Call Queue Management,The software system shall provide users with the capability to route calls from the Receive Queue to telephone numbers located in Uruguay.,0.30508244,9
+Virtual Autoreversal Post-Meeting Insights,The system shall enable users to activate the Auto Reverse Virtual Background feature for video participants using client version 5.6.3 or higher.,0.3742751,9
+Virtual Backgrounds and Filters,"The system shall automatically suggest or apply color grading and frame styles that adapt to the user’s detected facial expression or speaking tone to enhance visual communication (e.g., warm tones for friendly discussions, cool tones for professional presentations).",0.44001067,8
+Voice Message Sharing Settings,"The software system shall provide users with the capability to enable the ""Do Not Disturb"" voice message during sharing activities.",0.21707863,8
+Voicemail: A Historical Overview,The web portal shall enable users to send recordings to other users within the same account.,0.45234877,9
+Webinar on Althost Rights Issues,The software system shall enable users to terminate webinar chats for a specified subset of participants.,0.112006664,8
+Wildcard Domain Reauthentication,The software system shall provide users with the capability to require re-authentication for wildcard domains instead of using the user's profile name.,0.17957252,7
+Windows Mode Audio Processing,The system shall provide a ‘studio authenticity mode’ that disables echo cancellation and all post-processing while using AI analysis to preserve the speaker’s natural voiceprint and prevent audio artifacts caused by environmental noise.,0.2838394,9
